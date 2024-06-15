@@ -3,6 +3,7 @@ import './App.css';
 import Homepage from './pages/Homepage';
 import Loginpage from './pages/Loginpage';
 import Signuppage from './pages/Signuppage';
+import Cartpage from './pages/Cartpage';
 
 import {
   createBrowserRouter,
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: "/signup",
     element: (<Signuppage></Signuppage>),
+  },
+  {
+    path: "/cart",
+    element: (<Cartpage></Cartpage>),
   },
 ]);
 
