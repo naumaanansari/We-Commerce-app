@@ -1,6 +1,6 @@
 import React, { useState, Fragment, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import {  fetchAllProductsAsync, fetchProductsByFiltersAsync, selectAllProducts } from "../productSlice";
+import {  fetchAllProductsAsync, fetchProductsByFiltersAsync, fetchProductsBySortAsync, selectAllProducts } from "../productSlice";
 import {
   Dialog,
   DialogPanel,
@@ -55,9 +55,9 @@ const items = [
 ];
 
 const sortOptions = [
-  { name: "Best Rating", sort: "rating", order: "desc", current: false },
-  { name: "Price: Low to High", sort: "price", order: "asc", current: false },
-  { name: "Price: High to Low", sort: "price", order: "desc", current: false },
+  { name: "Best Rating", sort: "rating", order: "-", current: false },
+  { name: "Price: Low to High", sort: "price", order: "", current: false },
+  { name: "Price: High to Low", sort: "price", order: "-", current: false },
 ];
 
 const filters = [
@@ -76,7 +76,7 @@ const filters = [
       { value: "mens-shirts", label: "Men's Shirts", checked: false },
       { value: "mens-shoes", label: "Men's Shoes", checked: false },
       { value: "mens-watches", label: "Men's Watches", checked: false },
-      { value: "mobile-accessories ", label: "Mobile Accessories", checked: false },
+      { value: "mobile-accessories", label: "Mobile Accessories", checked: false },
       
     ],
   },
@@ -176,7 +176,8 @@ export default function ProductList() {
   const handleSort= (e,option) => {
     const newFilter={...filter,_sort:option.sort,_order: option.order}
     setFilter(newFilter)
-    dispatch(fetchProductsByFiltersAsync(newFilter))
+    console.log(newFilter)
+    dispatch(fetchProductsBySortAsync(newFilter))
     
 
   }
@@ -461,13 +462,13 @@ export default function ProductList() {
                               <div className="mt-4 flex justify-between items-center">
                                 <div className="flex flex-col gap-1">
                                   <h3 className="text-sm text-gray-700">
-                                    <a href={product.thumbnail}>
+                                    <div href={product.thumbnail}>
                                       <span
                                         aria-hidden="true"
                                         className="absolute inset-0"
                                       />
                                       {product.title}
-                                    </a>
+                                    </div>
                                   </h3>
                                   <p className="mt-1 text-sm text-gray-500 flex items-center">
                                     <StarIcon className="h-5 w-5 text-yellow-500 mr-2"></StarIcon>
