@@ -1,0 +1,1 @@
+filter Format: http://localhost:8080/products?category=laptops
