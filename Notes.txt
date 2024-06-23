@@ -1,1 +1,4 @@
-filter Format: http://localhost:8080/products?category=laptops
+
+Before run make sure to run: 
+    json-server --watch .\data.json --port 8080
+    npm start

@@ -8,14 +8,21 @@ export function fetchAllProducts() {
   });
 }
 
-export function fetchProductsByFilters(filter, sort) {
-  //filter = {"category": "smartphones"}
+export function fetchProductsByFilters(filter, sort,pagination) {
+  //filter = {"category": ["smartphones",laptops]}
+  //sort = {_sort: "price", _order= "desc"}
+  //pagination=  {_page: "1", _limit= 10}
+
   //TODO: on server we'll support multiple values
   let queryString = "";
 
-  console.log(sort)
+  // console.log(sort)
   for (let key in sort) {
     queryString += `${key}=${sort[key]}&`;
+    console.log(queryString)
+  }
+  for (let key in pagination) {
+    queryString += `${key}=${pagination[key]}&`;
     console.log(queryString)
   }
 
@@ -28,7 +35,9 @@ export function fetchProductsByFilters(filter, sort) {
     
     
     
-  }console.log(`fetching: http://localhost:8080/products?${queryString}`);
+  }
+  
+  console.log(`fetching: http://localhost:8080/products?${queryString}`);
 
     return new Promise(async (resolve) => {
       //TODO: We will not Hardcode The server URL Here
@@ -36,33 +45,15 @@ export function fetchProductsByFilters(filter, sort) {
         "http://localhost:8080/products?" + queryString
       );
       const data = await response.json();
-      resolve({ data });
+      const totalItems = await response.headers.get('X-Total-Count')
+      resolve({ data:{products:data, totalItems} });
+
       
     });
   }
 
 
-// export function fetchProductsBySort(filter,sort) {
-//   //filter = {"category": "smartphones"}
-//   //TODO: on server we'll support multiple values
-//   console.log(filter)
-//   //TODO: SortQuery: http://localhost:8080/products?_sort=price&_order=desc
-//   let queryString = ``;
+  //Pagination URL: http://localhost:8080/products?_page=1&_limit=10
+  // Sort Url     : http://localhost:8080/products?_sort=price&_order=asc/desc
+  // Filter Url   : http://localhost:8080/products?category=furniture&
 
-// for(let key in filter){
-//   const categoryValues = filter[key];
-//   if(categoryValues.length>=1){
-//     const lastCategoryValue=  categoryValues[categoryValues.length-1]
-//     queryString += `${key}=${filter[key]}&`
-//   }
-
-//   }
-//   console.log(`fetching:  http://localhost:8080/products?${queryString}`)
-
-//   return new Promise(async (resolve) => {
-//     //TODO: We will not Hardcode The server URL Here
-//     const response = await fetch("http://localhost:8080/products?"+ queryString);
-//     const data = await response.json();
-//     resolve({ data });
-//   } );
-// }
