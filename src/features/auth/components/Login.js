@@ -49,7 +49,7 @@ export default function Login() {
                       password: data.password,
                     })
                   );
-                  console.log(data);
+                  
                 })}
                 action="#"
                 method="POST"

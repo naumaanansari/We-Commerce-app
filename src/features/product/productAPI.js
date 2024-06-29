@@ -28,11 +28,11 @@ export function fetchProductsByFilters(filter, sort,pagination) {
   // console.log(sort)
   for (let key in sort) {
     queryString += `${key}=${sort[key]}&`;
-    console.log(queryString)
+    // console.log(queryString)
   }
   for (let key in pagination) {
     queryString += `${key}=${pagination[key]}&`;
-    console.log(queryString)
+    // console.log(queryString)
   }
 
   for (let key in filter) {
@@ -46,7 +46,7 @@ export function fetchProductsByFilters(filter, sort,pagination) {
     
   }
   
-  console.log(`fetching: http://localhost:8080/products?${queryString}`);
+  // console.log(`fetching: http://localhost:8080/products?${queryString}`);
 
     return new Promise(async (resolve) => {
       //TODO: We will not Hardcode The server URL Here

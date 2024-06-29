@@ -135,7 +135,7 @@ export default function ProductList() {
 
   //Filter Handle Function
   const handleFilter = (e, section, option) => {
-    console.log(e.target.checked);
+    // console.log(e.target.checked);
     const newFilter = { ...filter };
     //TODO: on server It will support multiple Categories
     if (e.target.checked) {
@@ -150,7 +150,7 @@ export default function ProductList() {
       );
       newFilter[section.id].splice(index, 1);
     }
-    console.log(newFilter);
+    // console.log(newFilter);
     setFilter(newFilter);
   };
 
@@ -158,13 +158,13 @@ export default function ProductList() {
   const handleSort = (e, option) => {
     const newsort = { _sort: option.sort, _order: option.order };
     setSort(newsort);
-    console.log(newsort);
+    // console.log(newsort);
     dispatch(fetchProductsByFiltersAsync({ filter, sort: newsort }));
   };
 
   //Page Handling Function
   const handlePage = ( page) => {
-    console.log({page});
+    // console.log({page});
     
     setPage(page);
   };

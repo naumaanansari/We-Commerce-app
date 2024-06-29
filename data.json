@@ -6227,140 +6227,335 @@
     {
       "email": "test@gmail.com",
       "password": "Abc@1234",
+      "addresses": [],
       "id": 1
     },
     {
       "email": "demo@gmail.com",
       "password": "Demo@123",
+      "addresses": [
+        {
+          "name": "Nauman Ansari",
+          "email": "naumanansari@outlook.com",
+          "phone": "9265820423",
+          "street": "Ab Street- ||",
+          "city": "Ahmadabad",
+          "state": "Gujrat",
+          "pinCode": "380021"
+        },
+        {
+          "name": "Izhan Ansari",
+          "email": "izhan@gmail.com",
+          "phone": "8254663322",
+          "street": "Gomtipur St.",
+          "city": "Ahmadabad",
+          "state": "Gujrat",
+          "pinCode": "380021"
+        }
+      ],
       "id": 2
     }
   ],
   "cart": [
     {
-      "id": 11,
-      "title": "Annibale Colombo Bed",
-      "description": "The Annibale Colombo Bed is a luxurious and elegant bed frame, crafted with high-quality materials for a comfortable and stylish bedroom.",
-      "category": "furniture",
-      "price": 1899.99,
-      "discountPercentage": 0.29,
-      "rating": 4.14,
-      "stock": 47,
+      "title": "Apple MacBook Pro 14 Inch Space Grey",
+      "description": "The MacBook Pro 14 Inch in Space Grey is a powerful and sleek laptop, featuring Apple's M1 Pro chip for exceptional performance and a stunning Retina display.",
+      "category": "laptops",
+      "price": 1999.99,
+      "discountPercentage": 9.25,
+      "rating": 3.13,
+      "stock": 39,
       "tags": [
-        "furniture",
-        "beds"
+        "laptops",
+        "apple"
       ],
-      "brand": "Annibale Colombo",
-      "sku": "4KMDTZWF",
-      "weight": 3,
+      "brand": "Apple",
+      "sku": "QDKO6NRJ",
+      "weight": 4,
       "dimensions": {
-        "width": 28.75,
-        "height": 26.88,
-        "depth": 24.47
+        "width": 12.38,
+        "height": 21.55,
+        "depth": 27.95
       },
-      "warrantyInformation": "2 year warranty",
-      "shippingInformation": "Ships overnight",
+      "warrantyInformation": "1 month warranty",
+      "shippingInformation": "Ships in 1 week",
       "availabilityStatus": "In Stock",
       "reviews": [
         {
-          "rating": 4,
-          "comment": "Great value for money!",
-          "date": "2024-05-23T08:56:21.620Z",
-          "reviewerName": "Julian Newton",
-          "reviewerEmail": "julian.newton@x.dummyjson.com"
+          "rating": 5,
+          "comment": "Would buy again!",
+          "date": "2024-05-23T08:56:21.622Z",
+          "reviewerName": "Hunter Gordon",
+          "reviewerEmail": "hunter.gordon@x.dummyjson.com"
         },
         {
           "rating": 5,
           "comment": "Would buy again!",
-          "date": "2024-05-23T08:56:21.620Z",
-          "reviewerName": "Madison Collins",
-          "reviewerEmail": "madison.collins@x.dummyjson.com"
+          "date": "2024-05-23T08:56:21.622Z",
+          "reviewerName": "Emma Wilson",
+          "reviewerEmail": "emma.wilson@x.dummyjson.com"
         },
         {
-          "rating": 4,
-          "comment": "Would buy again!",
-          "date": "2024-05-23T08:56:21.620Z",
-          "reviewerName": "Clara Berry",
-          "reviewerEmail": "clara.berry@x.dummyjson.com"
+          "rating": 5,
+          "comment": "Very pleased!",
+          "date": "2024-05-23T08:56:21.622Z",
+          "reviewerName": "David Martinez",
+          "reviewerEmail": "david.martinez@x.dummyjson.com"
         }
       ],
-      "returnPolicy": "7 days return policy",
+      "returnPolicy": "30 days return policy",
       "minimumOrderQuantity": 1,
       "meta": {
-        "createdAt": "2024-05-23T08:56:21.620Z",
-        "updatedAt": "2024-05-23T08:56:21.620Z",
-        "barcode": "7113807059215",
+        "createdAt": "2024-05-23T08:56:21.622Z",
+        "updatedAt": "2024-05-23T08:56:21.622Z",
+        "barcode": "3883623063065",
         "qrCode": "https://dummyjson.com/public/qr-code.png"
       },
       "images": [
-        "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Bed/1.png",
-        "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Bed/2.png",
-        "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Bed/3.png"
+        "https://cdn.dummyjson.com/products/images/laptops/Apple%20MacBook%20Pro%2014%20Inch%20Space%20Grey/1.png",
+        "https://cdn.dummyjson.com/products/images/laptops/Apple%20MacBook%20Pro%2014%20Inch%20Space%20Grey/2.png",
+        "https://cdn.dummyjson.com/products/images/laptops/Apple%20MacBook%20Pro%2014%20Inch%20Space%20Grey/3.png"
       ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Bed/thumbnail.png",
-      "quantity": 2,
-      "user": 2
+      "thumbnail": "https://cdn.dummyjson.com/products/images/laptops/Apple%20MacBook%20Pro%2014%20Inch%20Space%20Grey/thumbnail.png",
+      "quantity": 1,
+      "user": 1,
+      "id": 82
     },
     {
-      "id": 3,
-      "title": "Powder Canister",
-      "description": "The Powder Canister is a finely milled setting powder designed to set makeup and control shine. With a lightweight and translucent formula, it provides a smooth and matte finish.",
-      "category": "beauty",
-      "price": 14.99,
-      "discountPercentage": 18.14,
-      "rating": 3.82,
-      "stock": 59,
+      "title": "Apple Airpods",
+      "description": "The Apple Airpods offer a seamless wireless audio experience. With easy pairing, high-quality sound, and Siri integration, they are perfect for on-the-go listening.",
+      "category": "mobile-accessories",
+      "price": 129.99,
+      "discountPercentage": 4.82,
+      "rating": 4.38,
+      "stock": 93,
       "tags": [
-        "beauty",
-        "face powder"
+        "electronics",
+        "wireless earphones"
       ],
-      "brand": "Velvet Touch",
-      "sku": "9EN8WLT2",
-      "weight": 8,
+      "brand": "Apple",
+      "sku": "H76W8TSP",
+      "weight": 3,
       "dimensions": {
-        "width": 24.16,
-        "height": 10.7,
-        "depth": 11.07
+        "width": 22.62,
+        "height": 9.92,
+        "depth": 18.15
       },
-      "warrantyInformation": "2 year warranty",
-      "shippingInformation": "Ships in 1-2 business days",
+      "warrantyInformation": "No warranty",
+      "shippingInformation": "Ships in 3-5 business days",
       "availabilityStatus": "In Stock",
       "reviews": [
         {
-          "rating": 5,
-          "comment": "Very happy with my purchase!",
-          "date": "2024-05-23T08:56:21.618Z",
-          "reviewerName": "Ethan Thompson",
-          "reviewerEmail": "ethan.thompson@x.dummyjson.com"
+          "rating": 3,
+          "comment": "Waste of money!",
+          "date": "2024-05-23T08:56:21.624Z",
+          "reviewerName": "Aaliyah Hanson",
+          "reviewerEmail": "aaliyah.hanson@x.dummyjson.com"
         },
         {
-          "rating": 4,
-          "comment": "Great value for money!",
-          "date": "2024-05-23T08:56:21.618Z",
-          "reviewerName": "Levi Hicks",
-          "reviewerEmail": "levi.hicks@x.dummyjson.com"
+          "rating": 2,
+          "comment": "Waste of money!",
+          "date": "2024-05-23T08:56:21.624Z",
+          "reviewerName": "Leah Gutierrez",
+          "reviewerEmail": "leah.gutierrez@x.dummyjson.com"
         },
         {
-          "rating": 5,
-          "comment": "Highly impressed!",
-          "date": "2024-05-23T08:56:21.618Z",
-          "reviewerName": "Hazel Gardner",
-          "reviewerEmail": "hazel.gardner@x.dummyjson.com"
+          "rating": 3,
+          "comment": "Not worth the price!",
+          "date": "2024-05-23T08:56:21.624Z",
+          "reviewerName": "Jace Smith",
+          "reviewerEmail": "jace.smith@x.dummyjson.com"
         }
       ],
       "returnPolicy": "60 days return policy",
-      "minimumOrderQuantity": 25,
+      "minimumOrderQuantity": 3,
       "meta": {
-        "createdAt": "2024-05-23T08:56:21.618Z",
-        "updatedAt": "2024-05-23T08:56:21.618Z",
-        "barcode": "0516267971277",
+        "createdAt": "2024-05-23T08:56:21.624Z",
+        "updatedAt": "2024-05-23T08:56:21.624Z",
+        "barcode": "3925144121840",
         "qrCode": "https://dummyjson.com/public/qr-code.png"
       },
       "images": [
-        "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png"
+        "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20Airpods/1.png",
+        "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20Airpods/2.png",
+        "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20Airpods/3.png"
       ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/thumbnail.png",
-      "quantity": 2,
-      "user": 1
+      "thumbnail": "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20Airpods/thumbnail.png",
+      "quantity": 1,
+      "user": 1,
+      "id": 83
+    },
+    {
+      "title": "Gucci Bloom Eau de",
+      "description": "Gucci Bloom by Gucci is a floral and captivating fragrance, with notes of tuberose, jasmine, and Rangoon creeper. It's a modern and romantic scent.",
+      "category": "fragrances",
+      "price": 79.99,
+      "discountPercentage": 8.9,
+      "rating": 2.69,
+      "stock": 93,
+      "tags": [
+        "fragrances",
+        "perfumes"
+      ],
+      "brand": "Gucci",
+      "sku": "FFKZ6HOF",
+      "weight": 10,
+      "dimensions": {
+        "width": 22.28,
+        "height": 17.81,
+        "depth": 27.18
+      },
+      "warrantyInformation": "No warranty",
+      "shippingInformation": "Ships in 2 weeks",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Great value for money!",
+          "date": "2024-05-23T08:56:21.620Z",
+          "reviewerName": "Aria Parker",
+          "reviewerEmail": "aria.parker@x.dummyjson.com"
+        },
+        {
+          "rating": 4,
+          "comment": "Excellent quality!",
+          "date": "2024-05-23T08:56:21.620Z",
+          "reviewerName": "Natalie Harris",
+          "reviewerEmail": "natalie.harris@x.dummyjson.com"
+        },
+        {
+          "rating": 4,
+          "comment": "Fast shipping!",
+          "date": "2024-05-23T08:56:21.620Z",
+          "reviewerName": "Ava Harris",
+          "reviewerEmail": "ava.harris@x.dummyjson.com"
+        }
+      ],
+      "returnPolicy": "No return policy",
+      "minimumOrderQuantity": 10,
+      "meta": {
+        "createdAt": "2024-05-23T08:56:21.620Z",
+        "updatedAt": "2024-05-23T08:56:21.620Z",
+        "barcode": "8232190382069",
+        "qrCode": "https://dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://cdn.dummyjson.com/products/images/fragrances/Gucci%20Bloom%20Eau%20de/1.png",
+        "https://cdn.dummyjson.com/products/images/fragrances/Gucci%20Bloom%20Eau%20de/2.png",
+        "https://cdn.dummyjson.com/products/images/fragrances/Gucci%20Bloom%20Eau%20de/3.png"
+      ],
+      "thumbnail": "https://cdn.dummyjson.com/products/images/fragrances/Gucci%20Bloom%20Eau%20de/thumbnail.png",
+      "quantity": 1,
+      "user": 2,
+      "id": 84
+    }
+  ],
+  "orders": [
+    {
+      "items": [
+        {
+          "title": "Gucci Bloom Eau de",
+          "description": "Gucci Bloom by Gucci is a floral and captivating fragrance, with notes of tuberose, jasmine, and Rangoon creeper. It's a modern and romantic scent.",
+          "category": "fragrances",
+          "price": 79.99,
+          "discountPercentage": 8.9,
+          "rating": 2.69,
+          "stock": 93,
+          "tags": [
+            "fragrances",
+            "perfumes"
+          ],
+          "brand": "Gucci",
+          "sku": "FFKZ6HOF",
+          "weight": 10,
+          "dimensions": {
+            "width": 22.28,
+            "height": 17.81,
+            "depth": 27.18
+          },
+          "warrantyInformation": "No warranty",
+          "shippingInformation": "Ships in 2 weeks",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Great value for money!",
+              "date": "2024-05-23T08:56:21.620Z",
+              "reviewerName": "Aria Parker",
+              "reviewerEmail": "aria.parker@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Excellent quality!",
+              "date": "2024-05-23T08:56:21.620Z",
+              "reviewerName": "Natalie Harris",
+              "reviewerEmail": "natalie.harris@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Fast shipping!",
+              "date": "2024-05-23T08:56:21.620Z",
+              "reviewerName": "Ava Harris",
+              "reviewerEmail": "ava.harris@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "No return policy",
+          "minimumOrderQuantity": 10,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.620Z",
+            "updatedAt": "2024-05-23T08:56:21.620Z",
+            "barcode": "8232190382069",
+            "qrCode": "https://dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/fragrances/Gucci%20Bloom%20Eau%20de/1.png",
+            "https://cdn.dummyjson.com/products/images/fragrances/Gucci%20Bloom%20Eau%20de/2.png",
+            "https://cdn.dummyjson.com/products/images/fragrances/Gucci%20Bloom%20Eau%20de/3.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/fragrances/Gucci%20Bloom%20Eau%20de/thumbnail.png",
+          "quantity": 1,
+          "user": 2,
+          "id": 84
+        }
+      ],
+      "totalAmount": 79.99,
+      "totalItems": 1,
+      "user": {
+        "email": "demo@gmail.com",
+        "password": "Demo@123",
+        "addresses": [
+          {
+            "name": "Nauman Ansari",
+            "email": "naumanansari@outlook.com",
+            "phone": "9265820423",
+            "street": "Ab Street- ||",
+            "city": "Ahmadabad",
+            "state": "Gujrat",
+            "pinCode": "380021"
+          },
+          {
+            "name": "Izhan Ansari",
+            "email": "izhan@gmail.com",
+            "phone": "8254663322",
+            "street": "Gomtipur St.",
+            "city": "Ahmadabad",
+            "state": "Gujrat",
+            "pinCode": "380021"
+          }
+        ],
+        "id": 2
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Nauman Ansari",
+        "email": "naumanansari@outlook.com",
+        "phone": "9265820423",
+        "street": "Ab Street- ||",
+        "city": "Ahmadabad",
+        "state": "Gujrat",
+        "pinCode": "380021"
+      },
+      "id": 1
     }
   ]
 }

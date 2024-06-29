@@ -9,7 +9,7 @@ import {
   TransitionChild,
 } from "@headlessui/react";
 import { XMarkIcon } from "@heroicons/react/24/outline";
-import { Link } from "react-router-dom";
+import { Link, Navigate } from "react-router-dom";
 
 
 
@@ -32,7 +32,8 @@ export default function Cart() {
   
   
 
-  return (
+  return (<>
+  {!items.length  && <Navigate to='/' replace={true}></Navigate>}
     <div className="">
       <div className="bg-white mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8 mt-12 ">
         <div className="border-t border-gray-200 px-4 py-6 sm:px-6">
@@ -137,5 +138,6 @@ export default function Cart() {
         </div>
       </div>
     </div>
+    </>
   );
 }
