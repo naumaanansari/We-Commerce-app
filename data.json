@@ -6227,7 +6227,17 @@
     {
       "email": "test@gmail.com",
       "password": "Abc@1234",
-      "addresses": [],
+      "addresses": [
+        {
+          "name": "Tariq Ansari",
+          "email": "tariqansari@gmail.com",
+          "phone": "8565321241",
+          "street": "Taj Street",
+          "city": "Ahmedabad",
+          "state": "Gujrat",
+          "pinCode": "380021"
+        }
+      ],
       "id": 1
     },
     {
@@ -6258,196 +6268,133 @@
   ],
   "cart": [
     {
-      "title": "Apple MacBook Pro 14 Inch Space Grey",
-      "description": "The MacBook Pro 14 Inch in Space Grey is a powerful and sleek laptop, featuring Apple's M1 Pro chip for exceptional performance and a stunning Retina display.",
-      "category": "laptops",
-      "price": 1999.99,
-      "discountPercentage": 9.25,
-      "rating": 3.13,
-      "stock": 39,
+      "title": "Rolex Cellini Moonphase",
+      "description": "The Rolex Cellini Moonphase is a masterpiece of horology, featuring a moon phase complication and exquisite design. It reflects Rolex's commitment to precision and elegance.",
+      "category": "mens-watches",
+      "price": 12999.99,
+      "discountPercentage": 5.7,
+      "rating": 4.52,
+      "stock": 33,
       "tags": [
-        "laptops",
-        "apple"
+        "watches",
+        "luxury watches"
       ],
-      "brand": "Apple",
-      "sku": "QDKO6NRJ",
-      "weight": 4,
+      "brand": "Rolex",
+      "sku": "LUZDIKKR",
+      "weight": 5,
       "dimensions": {
-        "width": 12.38,
-        "height": 21.55,
-        "depth": 27.95
+        "width": 28.07,
+        "height": 13.43,
+        "depth": 10.81
       },
-      "warrantyInformation": "1 month warranty",
+      "warrantyInformation": "3 year warranty",
+      "shippingInformation": "Ships overnight",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 4,
+          "comment": "Very happy with my purchase!",
+          "date": "2024-05-23T08:56:21.624Z",
+          "reviewerName": "Sophia Jones",
+          "reviewerEmail": "sophia.jones@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.624Z",
+          "reviewerName": "Jacob Cooper",
+          "reviewerEmail": "jacob.cooper@x.dummyjson.com"
+        },
+        {
+          "rating": 4,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.624Z",
+          "reviewerName": "Elijah Cruz",
+          "reviewerEmail": "elijah.cruz@x.dummyjson.com"
+        }
+      ],
+      "returnPolicy": "No return policy",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2024-05-23T08:56:21.624Z",
+        "updatedAt": "2024-05-23T08:56:21.624Z",
+        "barcode": "0330714338454",
+        "qrCode": "https://dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://cdn.dummyjson.com/products/images/mens-watches/Rolex%20Cellini%20Moonphase/1.png",
+        "https://cdn.dummyjson.com/products/images/mens-watches/Rolex%20Cellini%20Moonphase/2.png",
+        "https://cdn.dummyjson.com/products/images/mens-watches/Rolex%20Cellini%20Moonphase/3.png"
+      ],
+      "thumbnail": "https://cdn.dummyjson.com/products/images/mens-watches/Rolex%20Cellini%20Moonphase/thumbnail.png",
+      "quantity": 1,
+      "user": 2,
+      "id": 85
+    },
+    {
+      "title": "Man Plaid Shirt",
+      "description": "The Man Plaid Shirt is a timeless and versatile men's shirt with a classic plaid pattern. Its comfortable fit and casual style make it a wardrobe essential for various occasions.",
+      "category": "mens-shirts",
+      "price": 34.99,
+      "discountPercentage": 17.53,
+      "rating": 3.66,
+      "stock": 65,
+      "tags": [
+        "clothing",
+        "men's shirts"
+      ],
+      "brand": "Classic Wear",
+      "sku": "TWL7HRBB",
+      "weight": 1,
+      "dimensions": {
+        "width": 29.56,
+        "height": 29.84,
+        "depth": 7.77
+      },
+      "warrantyInformation": "Lifetime warranty",
       "shippingInformation": "Ships in 1 week",
       "availabilityStatus": "In Stock",
       "reviews": [
         {
-          "rating": 5,
-          "comment": "Would buy again!",
-          "date": "2024-05-23T08:56:21.622Z",
-          "reviewerName": "Hunter Gordon",
-          "reviewerEmail": "hunter.gordon@x.dummyjson.com"
+          "rating": 3,
+          "comment": "Would not buy again!",
+          "date": "2024-05-23T08:56:21.623Z",
+          "reviewerName": "Nora Mills",
+          "reviewerEmail": "nora.mills@x.dummyjson.com"
         },
         {
-          "rating": 5,
-          "comment": "Would buy again!",
-          "date": "2024-05-23T08:56:21.622Z",
-          "reviewerName": "Emma Wilson",
-          "reviewerEmail": "emma.wilson@x.dummyjson.com"
+          "rating": 1,
+          "comment": "Very disappointed!",
+          "date": "2024-05-23T08:56:21.623Z",
+          "reviewerName": "Addison Ward",
+          "reviewerEmail": "addison.ward@x.dummyjson.com"
         },
         {
-          "rating": 5,
-          "comment": "Very pleased!",
-          "date": "2024-05-23T08:56:21.622Z",
-          "reviewerName": "David Martinez",
-          "reviewerEmail": "david.martinez@x.dummyjson.com"
+          "rating": 4,
+          "comment": "Awesome product!",
+          "date": "2024-05-23T08:56:21.623Z",
+          "reviewerName": "Emily Brown",
+          "reviewerEmail": "emily.brown@x.dummyjson.com"
         }
       ],
       "returnPolicy": "30 days return policy",
       "minimumOrderQuantity": 1,
       "meta": {
-        "createdAt": "2024-05-23T08:56:21.622Z",
-        "updatedAt": "2024-05-23T08:56:21.622Z",
-        "barcode": "3883623063065",
+        "createdAt": "2024-05-23T08:56:21.623Z",
+        "updatedAt": "2024-05-23T08:56:21.623Z",
+        "barcode": "9383795178668",
         "qrCode": "https://dummyjson.com/public/qr-code.png"
       },
       "images": [
-        "https://cdn.dummyjson.com/products/images/laptops/Apple%20MacBook%20Pro%2014%20Inch%20Space%20Grey/1.png",
-        "https://cdn.dummyjson.com/products/images/laptops/Apple%20MacBook%20Pro%2014%20Inch%20Space%20Grey/2.png",
-        "https://cdn.dummyjson.com/products/images/laptops/Apple%20MacBook%20Pro%2014%20Inch%20Space%20Grey/3.png"
+        "https://cdn.dummyjson.com/products/images/mens-shirts/Man%20Plaid%20Shirt/1.png",
+        "https://cdn.dummyjson.com/products/images/mens-shirts/Man%20Plaid%20Shirt/2.png",
+        "https://cdn.dummyjson.com/products/images/mens-shirts/Man%20Plaid%20Shirt/3.png",
+        "https://cdn.dummyjson.com/products/images/mens-shirts/Man%20Plaid%20Shirt/4.png"
       ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/laptops/Apple%20MacBook%20Pro%2014%20Inch%20Space%20Grey/thumbnail.png",
-      "quantity": 1,
-      "user": 1,
-      "id": 82
-    },
-    {
-      "title": "Apple Airpods",
-      "description": "The Apple Airpods offer a seamless wireless audio experience. With easy pairing, high-quality sound, and Siri integration, they are perfect for on-the-go listening.",
-      "category": "mobile-accessories",
-      "price": 129.99,
-      "discountPercentage": 4.82,
-      "rating": 4.38,
-      "stock": 93,
-      "tags": [
-        "electronics",
-        "wireless earphones"
-      ],
-      "brand": "Apple",
-      "sku": "H76W8TSP",
-      "weight": 3,
-      "dimensions": {
-        "width": 22.62,
-        "height": 9.92,
-        "depth": 18.15
-      },
-      "warrantyInformation": "No warranty",
-      "shippingInformation": "Ships in 3-5 business days",
-      "availabilityStatus": "In Stock",
-      "reviews": [
-        {
-          "rating": 3,
-          "comment": "Waste of money!",
-          "date": "2024-05-23T08:56:21.624Z",
-          "reviewerName": "Aaliyah Hanson",
-          "reviewerEmail": "aaliyah.hanson@x.dummyjson.com"
-        },
-        {
-          "rating": 2,
-          "comment": "Waste of money!",
-          "date": "2024-05-23T08:56:21.624Z",
-          "reviewerName": "Leah Gutierrez",
-          "reviewerEmail": "leah.gutierrez@x.dummyjson.com"
-        },
-        {
-          "rating": 3,
-          "comment": "Not worth the price!",
-          "date": "2024-05-23T08:56:21.624Z",
-          "reviewerName": "Jace Smith",
-          "reviewerEmail": "jace.smith@x.dummyjson.com"
-        }
-      ],
-      "returnPolicy": "60 days return policy",
-      "minimumOrderQuantity": 3,
-      "meta": {
-        "createdAt": "2024-05-23T08:56:21.624Z",
-        "updatedAt": "2024-05-23T08:56:21.624Z",
-        "barcode": "3925144121840",
-        "qrCode": "https://dummyjson.com/public/qr-code.png"
-      },
-      "images": [
-        "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20Airpods/1.png",
-        "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20Airpods/2.png",
-        "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20Airpods/3.png"
-      ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20Airpods/thumbnail.png",
-      "quantity": 1,
-      "user": 1,
-      "id": 83
-    },
-    {
-      "title": "Gucci Bloom Eau de",
-      "description": "Gucci Bloom by Gucci is a floral and captivating fragrance, with notes of tuberose, jasmine, and Rangoon creeper. It's a modern and romantic scent.",
-      "category": "fragrances",
-      "price": 79.99,
-      "discountPercentage": 8.9,
-      "rating": 2.69,
-      "stock": 93,
-      "tags": [
-        "fragrances",
-        "perfumes"
-      ],
-      "brand": "Gucci",
-      "sku": "FFKZ6HOF",
-      "weight": 10,
-      "dimensions": {
-        "width": 22.28,
-        "height": 17.81,
-        "depth": 27.18
-      },
-      "warrantyInformation": "No warranty",
-      "shippingInformation": "Ships in 2 weeks",
-      "availabilityStatus": "In Stock",
-      "reviews": [
-        {
-          "rating": 5,
-          "comment": "Great value for money!",
-          "date": "2024-05-23T08:56:21.620Z",
-          "reviewerName": "Aria Parker",
-          "reviewerEmail": "aria.parker@x.dummyjson.com"
-        },
-        {
-          "rating": 4,
-          "comment": "Excellent quality!",
-          "date": "2024-05-23T08:56:21.620Z",
-          "reviewerName": "Natalie Harris",
-          "reviewerEmail": "natalie.harris@x.dummyjson.com"
-        },
-        {
-          "rating": 4,
-          "comment": "Fast shipping!",
-          "date": "2024-05-23T08:56:21.620Z",
-          "reviewerName": "Ava Harris",
-          "reviewerEmail": "ava.harris@x.dummyjson.com"
-        }
-      ],
-      "returnPolicy": "No return policy",
-      "minimumOrderQuantity": 10,
-      "meta": {
-        "createdAt": "2024-05-23T08:56:21.620Z",
-        "updatedAt": "2024-05-23T08:56:21.620Z",
-        "barcode": "8232190382069",
-        "qrCode": "https://dummyjson.com/public/qr-code.png"
-      },
-      "images": [
-        "https://cdn.dummyjson.com/products/images/fragrances/Gucci%20Bloom%20Eau%20de/1.png",
-        "https://cdn.dummyjson.com/products/images/fragrances/Gucci%20Bloom%20Eau%20de/2.png",
-        "https://cdn.dummyjson.com/products/images/fragrances/Gucci%20Bloom%20Eau%20de/3.png"
-      ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/fragrances/Gucci%20Bloom%20Eau%20de/thumbnail.png",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/mens-shirts/Man%20Plaid%20Shirt/thumbnail.png",
       "quantity": 1,
       "user": 2,
-      "id": 84
+      "id": 86
     }
   ],
   "orders": [
@@ -6516,10 +6463,74 @@
           "quantity": 1,
           "user": 2,
           "id": 84
+        },
+        {
+          "title": "Annibale Colombo Bed",
+          "description": "The Annibale Colombo Bed is a luxurious and elegant bed frame, crafted with high-quality materials for a comfortable and stylish bedroom.",
+          "category": "furniture",
+          "price": 1899.99,
+          "discountPercentage": 0.29,
+          "rating": 4.14,
+          "stock": 47,
+          "tags": [
+            "furniture",
+            "beds"
+          ],
+          "brand": "Annibale Colombo",
+          "sku": "4KMDTZWF",
+          "weight": 3,
+          "dimensions": {
+            "width": 28.75,
+            "height": 26.88,
+            "depth": 24.47
+          },
+          "warrantyInformation": "2 year warranty",
+          "shippingInformation": "Ships overnight",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 4,
+              "comment": "Great value for money!",
+              "date": "2024-05-23T08:56:21.620Z",
+              "reviewerName": "Julian Newton",
+              "reviewerEmail": "julian.newton@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Would buy again!",
+              "date": "2024-05-23T08:56:21.620Z",
+              "reviewerName": "Madison Collins",
+              "reviewerEmail": "madison.collins@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Would buy again!",
+              "date": "2024-05-23T08:56:21.620Z",
+              "reviewerName": "Clara Berry",
+              "reviewerEmail": "clara.berry@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "7 days return policy",
+          "minimumOrderQuantity": 1,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.620Z",
+            "updatedAt": "2024-05-23T08:56:21.620Z",
+            "barcode": "7113807059215",
+            "qrCode": "https://dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Bed/1.png",
+            "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Bed/2.png",
+            "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Bed/3.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Bed/thumbnail.png",
+          "quantity": 1,
+          "user": 2,
+          "id": 85
         }
       ],
-      "totalAmount": 79.99,
-      "totalItems": 1,
+      "totalAmount": 1979.98,
+      "totalItems": 2,
       "user": {
         "email": "demo@gmail.com",
         "password": "Demo@123",
@@ -6555,7 +6566,504 @@
         "state": "Gujrat",
         "pinCode": "380021"
       },
+      "status": "pending",
       "id": 1
+    },
+    {
+      "items": [
+        {
+          "title": "Apple Airpods",
+          "description": "The Apple Airpods offer a seamless wireless audio experience. With easy pairing, high-quality sound, and Siri integration, they are perfect for on-the-go listening.",
+          "category": "mobile-accessories",
+          "price": 129.99,
+          "discountPercentage": 4.82,
+          "rating": 4.38,
+          "stock": 93,
+          "tags": [
+            "electronics",
+            "wireless earphones"
+          ],
+          "brand": "Apple",
+          "sku": "H76W8TSP",
+          "weight": 3,
+          "dimensions": {
+            "width": 22.62,
+            "height": 9.92,
+            "depth": 18.15
+          },
+          "warrantyInformation": "No warranty",
+          "shippingInformation": "Ships in 3-5 business days",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 3,
+              "comment": "Waste of money!",
+              "date": "2024-05-23T08:56:21.624Z",
+              "reviewerName": "Aaliyah Hanson",
+              "reviewerEmail": "aaliyah.hanson@x.dummyjson.com"
+            },
+            {
+              "rating": 2,
+              "comment": "Waste of money!",
+              "date": "2024-05-23T08:56:21.624Z",
+              "reviewerName": "Leah Gutierrez",
+              "reviewerEmail": "leah.gutierrez@x.dummyjson.com"
+            },
+            {
+              "rating": 3,
+              "comment": "Not worth the price!",
+              "date": "2024-05-23T08:56:21.624Z",
+              "reviewerName": "Jace Smith",
+              "reviewerEmail": "jace.smith@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "60 days return policy",
+          "minimumOrderQuantity": 3,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.624Z",
+            "updatedAt": "2024-05-23T08:56:21.624Z",
+            "barcode": "3925144121840",
+            "qrCode": "https://dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20Airpods/1.png",
+            "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20Airpods/2.png",
+            "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20Airpods/3.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20Airpods/thumbnail.png",
+          "quantity": 1,
+          "user": 2,
+          "id": 84
+        },
+        {
+          "title": "Rolex Cellini Moonphase",
+          "description": "The Rolex Cellini Moonphase is a masterpiece of horology, featuring a moon phase complication and exquisite design. It reflects Rolex's commitment to precision and elegance.",
+          "category": "mens-watches",
+          "price": 12999.99,
+          "discountPercentage": 5.7,
+          "rating": 4.52,
+          "stock": 33,
+          "tags": [
+            "watches",
+            "luxury watches"
+          ],
+          "brand": "Rolex",
+          "sku": "LUZDIKKR",
+          "weight": 5,
+          "dimensions": {
+            "width": 28.07,
+            "height": 13.43,
+            "depth": 10.81
+          },
+          "warrantyInformation": "3 year warranty",
+          "shippingInformation": "Ships overnight",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 4,
+              "comment": "Very happy with my purchase!",
+              "date": "2024-05-23T08:56:21.624Z",
+              "reviewerName": "Sophia Jones",
+              "reviewerEmail": "sophia.jones@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Very satisfied!",
+              "date": "2024-05-23T08:56:21.624Z",
+              "reviewerName": "Jacob Cooper",
+              "reviewerEmail": "jacob.cooper@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Very satisfied!",
+              "date": "2024-05-23T08:56:21.624Z",
+              "reviewerName": "Elijah Cruz",
+              "reviewerEmail": "elijah.cruz@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "No return policy",
+          "minimumOrderQuantity": 1,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.624Z",
+            "updatedAt": "2024-05-23T08:56:21.624Z",
+            "barcode": "0330714338454",
+            "qrCode": "https://dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/mens-watches/Rolex%20Cellini%20Moonphase/1.png",
+            "https://cdn.dummyjson.com/products/images/mens-watches/Rolex%20Cellini%20Moonphase/2.png",
+            "https://cdn.dummyjson.com/products/images/mens-watches/Rolex%20Cellini%20Moonphase/3.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/mens-watches/Rolex%20Cellini%20Moonphase/thumbnail.png",
+          "quantity": 1,
+          "user": 2,
+          "id": 85
+        },
+        {
+          "title": "Man Plaid Shirt",
+          "description": "The Man Plaid Shirt is a timeless and versatile men's shirt with a classic plaid pattern. Its comfortable fit and casual style make it a wardrobe essential for various occasions.",
+          "category": "mens-shirts",
+          "price": 34.99,
+          "discountPercentage": 17.53,
+          "rating": 3.66,
+          "stock": 65,
+          "tags": [
+            "clothing",
+            "men's shirts"
+          ],
+          "brand": "Classic Wear",
+          "sku": "TWL7HRBB",
+          "weight": 1,
+          "dimensions": {
+            "width": 29.56,
+            "height": 29.84,
+            "depth": 7.77
+          },
+          "warrantyInformation": "Lifetime warranty",
+          "shippingInformation": "Ships in 1 week",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 3,
+              "comment": "Would not buy again!",
+              "date": "2024-05-23T08:56:21.623Z",
+              "reviewerName": "Nora Mills",
+              "reviewerEmail": "nora.mills@x.dummyjson.com"
+            },
+            {
+              "rating": 1,
+              "comment": "Very disappointed!",
+              "date": "2024-05-23T08:56:21.623Z",
+              "reviewerName": "Addison Ward",
+              "reviewerEmail": "addison.ward@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Awesome product!",
+              "date": "2024-05-23T08:56:21.623Z",
+              "reviewerName": "Emily Brown",
+              "reviewerEmail": "emily.brown@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "30 days return policy",
+          "minimumOrderQuantity": 1,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.623Z",
+            "updatedAt": "2024-05-23T08:56:21.623Z",
+            "barcode": "9383795178668",
+            "qrCode": "https://dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/mens-shirts/Man%20Plaid%20Shirt/1.png",
+            "https://cdn.dummyjson.com/products/images/mens-shirts/Man%20Plaid%20Shirt/2.png",
+            "https://cdn.dummyjson.com/products/images/mens-shirts/Man%20Plaid%20Shirt/3.png",
+            "https://cdn.dummyjson.com/products/images/mens-shirts/Man%20Plaid%20Shirt/4.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/mens-shirts/Man%20Plaid%20Shirt/thumbnail.png",
+          "quantity": 1,
+          "user": 2,
+          "id": 86
+        }
+      ],
+      "totalAmount": 13164.97,
+      "totalItems": 3,
+      "user": {
+        "email": "demo@gmail.com",
+        "password": "Demo@123",
+        "addresses": [
+          {
+            "name": "Nauman Ansari",
+            "email": "naumanansari@outlook.com",
+            "phone": "9265820423",
+            "street": "Ab Street- ||",
+            "city": "Ahmadabad",
+            "state": "Gujrat",
+            "pinCode": "380021"
+          },
+          {
+            "name": "Izhan Ansari",
+            "email": "izhan@gmail.com",
+            "phone": "8254663322",
+            "street": "Gomtipur St.",
+            "city": "Ahmadabad",
+            "state": "Gujrat",
+            "pinCode": "380021"
+          }
+        ],
+        "id": 2
+      },
+      "paymentMethod": "card",
+      "selectedAddress": {
+        "name": "Izhan Ansari",
+        "email": "izhan@gmail.com",
+        "phone": "8254663322",
+        "street": "Gomtipur St.",
+        "city": "Ahmadabad",
+        "state": "Gujrat",
+        "pinCode": "380021"
+      },
+      "status": "pending",
+      "id": 2
+    },
+    {
+      "items": [
+        {
+          "title": "Apple MacBook Pro 14 Inch Space Grey",
+          "description": "The MacBook Pro 14 Inch in Space Grey is a powerful and sleek laptop, featuring Apple's M1 Pro chip for exceptional performance and a stunning Retina display.",
+          "category": "laptops",
+          "price": 1999.99,
+          "discountPercentage": 9.25,
+          "rating": 3.13,
+          "stock": 39,
+          "tags": [
+            "laptops",
+            "apple"
+          ],
+          "brand": "Apple",
+          "sku": "QDKO6NRJ",
+          "weight": 4,
+          "dimensions": {
+            "width": 12.38,
+            "height": 21.55,
+            "depth": 27.95
+          },
+          "warrantyInformation": "1 month warranty",
+          "shippingInformation": "Ships in 1 week",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Would buy again!",
+              "date": "2024-05-23T08:56:21.622Z",
+              "reviewerName": "Hunter Gordon",
+              "reviewerEmail": "hunter.gordon@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Would buy again!",
+              "date": "2024-05-23T08:56:21.622Z",
+              "reviewerName": "Emma Wilson",
+              "reviewerEmail": "emma.wilson@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Very pleased!",
+              "date": "2024-05-23T08:56:21.622Z",
+              "reviewerName": "David Martinez",
+              "reviewerEmail": "david.martinez@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "30 days return policy",
+          "minimumOrderQuantity": 1,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.622Z",
+            "updatedAt": "2024-05-23T08:56:21.622Z",
+            "barcode": "3883623063065",
+            "qrCode": "https://dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/laptops/Apple%20MacBook%20Pro%2014%20Inch%20Space%20Grey/1.png",
+            "https://cdn.dummyjson.com/products/images/laptops/Apple%20MacBook%20Pro%2014%20Inch%20Space%20Grey/2.png",
+            "https://cdn.dummyjson.com/products/images/laptops/Apple%20MacBook%20Pro%2014%20Inch%20Space%20Grey/3.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/laptops/Apple%20MacBook%20Pro%2014%20Inch%20Space%20Grey/thumbnail.png",
+          "quantity": 1,
+          "user": 1,
+          "id": 82
+        },
+        {
+          "title": "Apple Airpods",
+          "description": "The Apple Airpods offer a seamless wireless audio experience. With easy pairing, high-quality sound, and Siri integration, they are perfect for on-the-go listening.",
+          "category": "mobile-accessories",
+          "price": 129.99,
+          "discountPercentage": 4.82,
+          "rating": 4.38,
+          "stock": 93,
+          "tags": [
+            "electronics",
+            "wireless earphones"
+          ],
+          "brand": "Apple",
+          "sku": "H76W8TSP",
+          "weight": 3,
+          "dimensions": {
+            "width": 22.62,
+            "height": 9.92,
+            "depth": 18.15
+          },
+          "warrantyInformation": "No warranty",
+          "shippingInformation": "Ships in 3-5 business days",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 3,
+              "comment": "Waste of money!",
+              "date": "2024-05-23T08:56:21.624Z",
+              "reviewerName": "Aaliyah Hanson",
+              "reviewerEmail": "aaliyah.hanson@x.dummyjson.com"
+            },
+            {
+              "rating": 2,
+              "comment": "Waste of money!",
+              "date": "2024-05-23T08:56:21.624Z",
+              "reviewerName": "Leah Gutierrez",
+              "reviewerEmail": "leah.gutierrez@x.dummyjson.com"
+            },
+            {
+              "rating": 3,
+              "comment": "Not worth the price!",
+              "date": "2024-05-23T08:56:21.624Z",
+              "reviewerName": "Jace Smith",
+              "reviewerEmail": "jace.smith@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "60 days return policy",
+          "minimumOrderQuantity": 3,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.624Z",
+            "updatedAt": "2024-05-23T08:56:21.624Z",
+            "barcode": "3925144121840",
+            "qrCode": "https://dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20Airpods/1.png",
+            "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20Airpods/2.png",
+            "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20Airpods/3.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20Airpods/thumbnail.png",
+          "quantity": 1,
+          "user": 1,
+          "id": 83
+        }
+      ],
+      "totalAmount": 2129.98,
+      "totalItems": 2,
+      "user": {
+        "email": "test@gmail.com",
+        "password": "Abc@1234",
+        "addresses": [
+          {
+            "name": "Tariq Ansari",
+            "email": "tariqansari@gmail.com",
+            "phone": "8565321241",
+            "street": "Taj Street",
+            "city": "Ahmedabad",
+            "state": "Gujrat",
+            "pinCode": "380021"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "card",
+      "selectedAddress": {
+        "name": "Tariq Ansari",
+        "email": "tariqansari@gmail.com",
+        "phone": "8565321241",
+        "street": "Taj Street",
+        "city": "Ahmedabad",
+        "state": "Gujrat",
+        "pinCode": "380021"
+      },
+      "status": "pending",
+      "id": 3
+    },
+    {
+      "items": [
+        {
+          "title": "Annibale Colombo Sofa",
+          "description": "The Annibale Colombo Sofa is a sophisticated and comfortable seating option, featuring exquisite design and premium upholstery for your living room.",
+          "category": "furniture",
+          "price": 2499.99,
+          "discountPercentage": 18.54,
+          "rating": 3.08,
+          "stock": 16,
+          "tags": [
+            "furniture",
+            "sofas"
+          ],
+          "brand": "Annibale Colombo",
+          "sku": "LUU95CQP",
+          "weight": 3,
+          "dimensions": {
+            "width": 20.97,
+            "height": 19.11,
+            "depth": 25.81
+          },
+          "warrantyInformation": "1 month warranty",
+          "shippingInformation": "Ships overnight",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Very satisfied!",
+              "date": "2024-05-23T08:56:21.620Z",
+              "reviewerName": "Tyler Davis",
+              "reviewerEmail": "tyler.davis@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Excellent quality!",
+              "date": "2024-05-23T08:56:21.620Z",
+              "reviewerName": "Hannah Robinson",
+              "reviewerEmail": "hannah.robinson@x.dummyjson.com"
+            },
+            {
+              "rating": 3,
+              "comment": "Waste of money!",
+              "date": "2024-05-23T08:56:21.620Z",
+              "reviewerName": "Madison Collins",
+              "reviewerEmail": "madison.collins@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "7 days return policy",
+          "minimumOrderQuantity": 1,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.620Z",
+            "updatedAt": "2024-05-23T08:56:21.620Z",
+            "barcode": "0426785817074",
+            "qrCode": "https://dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Sofa/1.png",
+            "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Sofa/2.png",
+            "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Sofa/3.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Sofa/thumbnail.png",
+          "quantity": 1,
+          "user": 1,
+          "id": 87
+        }
+      ],
+      "totalAmount": 2499.99,
+      "totalItems": 1,
+      "user": {
+        "email": "test@gmail.com",
+        "password": "Abc@1234",
+        "addresses": [
+          {
+            "name": "Tariq Ansari",
+            "email": "tariqansari@gmail.com",
+            "phone": "8565321241",
+            "street": "Taj Street",
+            "city": "Ahmedabad",
+            "state": "Gujrat",
+            "pinCode": "380021"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Tariq Ansari",
+        "email": "tariqansari@gmail.com",
+        "phone": "8565321241",
+        "street": "Taj Street",
+        "city": "Ahmedabad",
+        "state": "Gujrat",
+        "pinCode": "380021"
+      },
+      "status": "pending",
+      "id": 4
     }
   ]
 }

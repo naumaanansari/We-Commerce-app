@@ -7,47 +7,11 @@ import {
   updateCartAsync,
 } from "../features/cart/cartSlice";
 import { useForm } from "react-hook-form";
-import { selectLoggedInUser, updateUserAsync } from "../features/auth/authSlice";
-import { createOrderAsync } from "../features/order/orderSlice";
-
-// const addresses = [
-//   {
-//     name: "John Wick",
-//     street: "Royal Street",
-//     city: "Delhi",
-//     pincode: "110001",
-//     state: "Delhi",
-//     phone: "8232569966",
-//     email: "john101@yahoo.com",
-//   },
-//   {
-//     name: "Ansari Nauman",
-//     street: "Happy Street",
-//     city: "Ahmedabad",
-//     pincode: "380009",
-//     state: "Gujrat",
-//     phone: "9906583124",
-//     email: "hellonauman@outlook.com",
-//   },
-//   {
-//     name: "Talha Anjum",
-//     street: "Marin Street",
-//     city: "Mumbai",
-//     pincode: "400030",
-//     state: "Maharashtra",
-//     phone: "8282546971",
-//     email: "talhaanj.dhh@google.com",
-//   },
-//   {
-//     name: "Mahendra Singh",
-//     street: "Rao Saheb Marg",
-//     city: "Noida",
-//     pincode: "660623",
-//     state: "Uttar Pradesh",
-//     phone: "6353498156",
-//     email: "msd07@csk.com",
-//   },
-// ];
+import {
+  selectLoggedInUser,
+  updateUserAsync,
+} from "../features/auth/authSlice";
+import { createOrderAsync, selectCurrentOrder } from "../features/order/orderSlice";
 
 
 function CheckoutPage() {
@@ -66,14 +30,15 @@ function CheckoutPage() {
     formState: { errors },
   } = useForm();
 
-  const user = useSelector(selectLoggedInUser)
- 
+  const user = useSelector(selectLoggedInUser);
+
   const totalItems = items.reduce((total, item) => item.quantity + total, 0);
+
+  const currentOrder=   useSelector(selectCurrentOrder)
 
   const dispatch = useDispatch();
   const [selectedAddress, setSelectedAddress] = useState(null);
-  const [paymentMethod, setPaymentMethod] = useState('cash')
-
+  const [paymentMethod, setPaymentMethod] = useState("cash");
 
   const handleQuantity = (e, item) => {
     dispatch(updateCartAsync({ ...item, quantity: +e.target.value }));
@@ -84,29 +49,40 @@ function CheckoutPage() {
   };
 
   const handleAddress = (e) => {
-    setSelectedAddress(user.addresses[e.target.value])
+    setSelectedAddress(user.addresses[e.target.value]);
     // console.log( e.target.value );
-     
   };
   const handlePayment = (e) => {
-    console.log( e.target.value );
-     setPaymentMethod(e.target.value )
+    console.log(e.target.value);
+    setPaymentMethod(e.target.value);
   };
 
-  const handleOrder=(e) => {
-    const order = {items,totalAmount, totalItems,user,paymentMethod, selectedAddress}
-    dispatch(createOrderAsync(order))
+  const handleOrder = (e) => {
+    if (selectedAddress && paymentMethod) {
+      const order = {
+        items,
+        totalAmount,
+        totalItems,
+        user,
+        paymentMethod,
+        selectedAddress,
+        status:'pending' //order status can be delivered, received.
+      };
+      dispatch(createOrderAsync(order));
+    }else{
+      //TODO: We can Use Proper Messaging Pop-ups
+      alert("Enter Address and Payment Method")
+    }
+
     //TODO: Redirect to order-success page
     //TODO: Clear cart after order
     //TODO: On server update the stock of the given item
-
-
-  }
-  
+  };
 
   return (
     <>
       {!items.length && <Navigate to="/" replace={true}></Navigate>}
+      {currentOrder && <Navigate to={`/order-success/${currentOrder.id}`} replace={true}></Navigate>}
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 ">
         {/* Form Section starts here */}
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-5">
@@ -116,9 +92,12 @@ function CheckoutPage() {
               noValidate
               onSubmit={handleSubmit((data) => {
                 console.log(data);
-                
+
                 dispatch(
-                 updateUserAsync({...user, addresses:[...user.addresses,data]})
+                  updateUserAsync({
+                    ...user,
+                    addresses: [...user.addresses, data],
+                  })
                 );
                 reset();
               })}
@@ -181,7 +160,7 @@ function CheckoutPage() {
                         Phone
                       </label>
                       <div className="mt-2">
-                      <input
+                        <input
                           type="tel"
                           {...register("phone", {
                             required: "phone is required..!",
@@ -299,14 +278,14 @@ function CheckoutPage() {
 
                   {/* Saved Addresses */}
                   <ul role="list" className="divide-y divide-gray-100">
-                    {user.addresses.map((address,index) => (
+                    {user.addresses.map((address, index) => (
                       <li
                         key={index}
                         className="flex justify-between gap-x-6 py-5 px-3"
                       >
                         <div className="flex min-w-0 gap-x-4 ">
                           <input
-                          onChange={handleAddress}
+                            onChange={handleAddress}
                             id={address.email}
                             name="address"
                             type="radio"
@@ -358,7 +337,7 @@ function CheckoutPage() {
                             name="payments"
                             onChange={handlePayment}
                             value="cash"
-                            checked={paymentMethod==="cash"}
+                            checked={paymentMethod === "cash"}
                             type="radio"
                             className="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600"
                           />
@@ -375,7 +354,7 @@ function CheckoutPage() {
                             name="payments"
                             onChange={handlePayment}
                             value="card"
-                            checked={paymentMethod==="card"}
+                            checked={paymentMethod === "card"}
                             type="radio"
                             className="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600"
                           />

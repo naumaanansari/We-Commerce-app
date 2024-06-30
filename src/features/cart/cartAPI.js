@@ -15,13 +15,13 @@ export function addToCart(item) {
 export function fetchItemsByUserId(userId) {
   return new Promise(async (resolve) => {
     //TODO: We will not Hardcode The server URL Here
-    const response = await fetch("http://localhost:8080/cart?user="+userId);
+    const response = await fetch("http://localhost:8080/cart?user=" + userId);
     const data = await response.json();
     resolve({ data });
   });
 }
 
-export function updateCart(update ) {
+export function updateCart(update) {
   return new Promise(async (resolve) => {
     const response = await fetch("http://localhost:8080/cart/" + update.id, {
       method: "PATCH",
@@ -34,7 +34,7 @@ export function updateCart(update ) {
   });
 }
 
-export function deleteItemFromCart(itemId ) {
+export function deleteItemFromCart(itemId) {
   return new Promise(async (resolve) => {
     const response = await fetch("http://localhost:8080/cart/" + itemId, {
       method: "DELETE",
@@ -42,6 +42,20 @@ export function deleteItemFromCart(itemId ) {
     });
     const data = await response.json();
     //TODO: On server It will return only some specific information (excluding: Password)
-    resolve({ data:{id:itemId} });
+    resolve({ data: { id: itemId } });
+  });
+}
+
+export async function resetCart(userId) {
+  //get all the items and then delete
+  return new Promise(async (resolve) => {
+
+    const response = await fetchItemsByUserId(userId);
+    const items = response.data;
+
+    for (const item of items) {
+      await deleteItemFromCart(item.id);
+    }
+    resolve({status: "success"})
   });
 }

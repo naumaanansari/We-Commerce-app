@@ -33,6 +33,7 @@ export default function Cart() {
   
 
   return (<>
+  
   {!items.length  && <Navigate to='/' replace={true}></Navigate>}
     <div className="">
       <div className="bg-white mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8 mt-12 ">
