@@ -6229,13 +6229,22 @@
       "password": "Abc@1234",
       "addresses": [
         {
-          "name": "Tariq Ansari",
-          "email": "tariqansari@gmail.com",
-          "phone": "8565321241",
-          "street": "Taj Street",
-          "city": "Ahmedabad",
+          "name": "Rabiya Ansari",
+          "email": "Rabiya@yahoo.com",
+          "phone": "8264419107",
+          "street": "C7, Taybah Residency, Ambar Tower Road",
+          "city": "Ahmadabad",
           "state": "Gujrat",
-          "pinCode": "380021"
+          "pinCode": "380055"
+        },
+        {
+          "name": "Jack Swagger",
+          "email": "jack@gmail.com",
+          "phone": "565666565656",
+          "street": "abcsbshchc",
+          "city": "scshch",
+          "state": "schsdc",
+          "pinCode": "shchsch"
         }
       ],
       "id": 1
@@ -6268,133 +6277,66 @@
   ],
   "cart": [
     {
-      "title": "Rolex Cellini Moonphase",
-      "description": "The Rolex Cellini Moonphase is a masterpiece of horology, featuring a moon phase complication and exquisite design. It reflects Rolex's commitment to precision and elegance.",
-      "category": "mens-watches",
-      "price": 12999.99,
-      "discountPercentage": 5.7,
-      "rating": 4.52,
-      "stock": 33,
+      "title": "Red Nail Polish",
+      "description": "The Red Nail Polish offers a rich and glossy red hue for vibrant and polished nails. With a quick-drying formula, it provides a salon-quality finish at home.",
+      "category": "beauty",
+      "price": 8.99,
+      "discountPercentage": 2.46,
+      "rating": 3.91,
+      "stock": 71,
       "tags": [
-        "watches",
-        "luxury watches"
+        "beauty",
+        "nail polish"
       ],
-      "brand": "Rolex",
-      "sku": "LUZDIKKR",
-      "weight": 5,
+      "brand": "Nail Couture",
+      "sku": "YUIIIP4W",
+      "weight": 9,
       "dimensions": {
-        "width": 28.07,
-        "height": 13.43,
-        "depth": 10.81
+        "width": 8.11,
+        "height": 10.89,
+        "depth": 29.06
       },
-      "warrantyInformation": "3 year warranty",
-      "shippingInformation": "Ships overnight",
-      "availabilityStatus": "In Stock",
-      "reviews": [
-        {
-          "rating": 4,
-          "comment": "Very happy with my purchase!",
-          "date": "2024-05-23T08:56:21.624Z",
-          "reviewerName": "Sophia Jones",
-          "reviewerEmail": "sophia.jones@x.dummyjson.com"
-        },
-        {
-          "rating": 5,
-          "comment": "Very satisfied!",
-          "date": "2024-05-23T08:56:21.624Z",
-          "reviewerName": "Jacob Cooper",
-          "reviewerEmail": "jacob.cooper@x.dummyjson.com"
-        },
-        {
-          "rating": 4,
-          "comment": "Very satisfied!",
-          "date": "2024-05-23T08:56:21.624Z",
-          "reviewerName": "Elijah Cruz",
-          "reviewerEmail": "elijah.cruz@x.dummyjson.com"
-        }
-      ],
-      "returnPolicy": "No return policy",
-      "minimumOrderQuantity": 1,
-      "meta": {
-        "createdAt": "2024-05-23T08:56:21.624Z",
-        "updatedAt": "2024-05-23T08:56:21.624Z",
-        "barcode": "0330714338454",
-        "qrCode": "https://dummyjson.com/public/qr-code.png"
-      },
-      "images": [
-        "https://cdn.dummyjson.com/products/images/mens-watches/Rolex%20Cellini%20Moonphase/1.png",
-        "https://cdn.dummyjson.com/products/images/mens-watches/Rolex%20Cellini%20Moonphase/2.png",
-        "https://cdn.dummyjson.com/products/images/mens-watches/Rolex%20Cellini%20Moonphase/3.png"
-      ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/mens-watches/Rolex%20Cellini%20Moonphase/thumbnail.png",
-      "quantity": 1,
-      "user": 2,
-      "id": 85
-    },
-    {
-      "title": "Man Plaid Shirt",
-      "description": "The Man Plaid Shirt is a timeless and versatile men's shirt with a classic plaid pattern. Its comfortable fit and casual style make it a wardrobe essential for various occasions.",
-      "category": "mens-shirts",
-      "price": 34.99,
-      "discountPercentage": 17.53,
-      "rating": 3.66,
-      "stock": 65,
-      "tags": [
-        "clothing",
-        "men's shirts"
-      ],
-      "brand": "Classic Wear",
-      "sku": "TWL7HRBB",
-      "weight": 1,
-      "dimensions": {
-        "width": 29.56,
-        "height": 29.84,
-        "depth": 7.77
-      },
-      "warrantyInformation": "Lifetime warranty",
+      "warrantyInformation": "1 year warranty",
       "shippingInformation": "Ships in 1 week",
       "availabilityStatus": "In Stock",
       "reviews": [
         {
-          "rating": 3,
-          "comment": "Would not buy again!",
-          "date": "2024-05-23T08:56:21.623Z",
-          "reviewerName": "Nora Mills",
-          "reviewerEmail": "nora.mills@x.dummyjson.com"
+          "rating": 5,
+          "comment": "Very pleased!",
+          "date": "2024-05-23T08:56:21.619Z",
+          "reviewerName": "Leo Rivera",
+          "reviewerEmail": "leo.rivera@x.dummyjson.com"
         },
         {
-          "rating": 1,
-          "comment": "Very disappointed!",
-          "date": "2024-05-23T08:56:21.623Z",
-          "reviewerName": "Addison Ward",
-          "reviewerEmail": "addison.ward@x.dummyjson.com"
+          "rating": 5,
+          "comment": "Great product!",
+          "date": "2024-05-23T08:56:21.619Z",
+          "reviewerName": "Evan Reed",
+          "reviewerEmail": "evan.reed@x.dummyjson.com"
         },
         {
           "rating": 4,
-          "comment": "Awesome product!",
-          "date": "2024-05-23T08:56:21.623Z",
-          "reviewerName": "Emily Brown",
-          "reviewerEmail": "emily.brown@x.dummyjson.com"
+          "comment": "Highly recommended!",
+          "date": "2024-05-23T08:56:21.619Z",
+          "reviewerName": "Evelyn Sanchez",
+          "reviewerEmail": "evelyn.sanchez@x.dummyjson.com"
         }
       ],
-      "returnPolicy": "30 days return policy",
-      "minimumOrderQuantity": 1,
+      "returnPolicy": "No return policy",
+      "minimumOrderQuantity": 46,
       "meta": {
-        "createdAt": "2024-05-23T08:56:21.623Z",
-        "updatedAt": "2024-05-23T08:56:21.623Z",
-        "barcode": "9383795178668",
+        "createdAt": "2024-05-23T08:56:21.619Z",
+        "updatedAt": "2024-05-23T08:56:21.619Z",
+        "barcode": "3212847902461",
         "qrCode": "https://dummyjson.com/public/qr-code.png"
       },
       "images": [
-        "https://cdn.dummyjson.com/products/images/mens-shirts/Man%20Plaid%20Shirt/1.png",
-        "https://cdn.dummyjson.com/products/images/mens-shirts/Man%20Plaid%20Shirt/2.png",
-        "https://cdn.dummyjson.com/products/images/mens-shirts/Man%20Plaid%20Shirt/3.png",
-        "https://cdn.dummyjson.com/products/images/mens-shirts/Man%20Plaid%20Shirt/4.png"
+        "https://cdn.dummyjson.com/products/images/beauty/Red%20Nail%20Polish/1.png"
       ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/mens-shirts/Man%20Plaid%20Shirt/thumbnail.png",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Red%20Nail%20Polish/thumbnail.png",
       "quantity": 1,
-      "user": 2,
-      "id": 86
+      "user": 1,
+      "id": 1
     }
   ],
   "orders": [
@@ -7064,6 +7006,466 @@
       },
       "status": "pending",
       "id": 4
+    },
+    {
+      "items": [
+        {
+          "title": "Rolex Cellini Moonphase",
+          "description": "The Rolex Cellini Moonphase is a masterpiece of horology, featuring a moon phase complication and exquisite design. It reflects Rolex's commitment to precision and elegance.",
+          "category": "mens-watches",
+          "price": 12999.99,
+          "discountPercentage": 5.7,
+          "rating": 4.52,
+          "stock": 33,
+          "tags": [
+            "watches",
+            "luxury watches"
+          ],
+          "brand": "Rolex",
+          "sku": "LUZDIKKR",
+          "weight": 5,
+          "dimensions": {
+            "width": 28.07,
+            "height": 13.43,
+            "depth": 10.81
+          },
+          "warrantyInformation": "3 year warranty",
+          "shippingInformation": "Ships overnight",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 4,
+              "comment": "Very happy with my purchase!",
+              "date": "2024-05-23T08:56:21.624Z",
+              "reviewerName": "Sophia Jones",
+              "reviewerEmail": "sophia.jones@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Very satisfied!",
+              "date": "2024-05-23T08:56:21.624Z",
+              "reviewerName": "Jacob Cooper",
+              "reviewerEmail": "jacob.cooper@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Very satisfied!",
+              "date": "2024-05-23T08:56:21.624Z",
+              "reviewerName": "Elijah Cruz",
+              "reviewerEmail": "elijah.cruz@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "No return policy",
+          "minimumOrderQuantity": 1,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.624Z",
+            "updatedAt": "2024-05-23T08:56:21.624Z",
+            "barcode": "0330714338454",
+            "qrCode": "https://dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/mens-watches/Rolex%20Cellini%20Moonphase/1.png",
+            "https://cdn.dummyjson.com/products/images/mens-watches/Rolex%20Cellini%20Moonphase/2.png",
+            "https://cdn.dummyjson.com/products/images/mens-watches/Rolex%20Cellini%20Moonphase/3.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/mens-watches/Rolex%20Cellini%20Moonphase/thumbnail.png",
+          "quantity": 1,
+          "user": 2,
+          "id": 85
+        },
+        {
+          "title": "Man Plaid Shirt",
+          "description": "The Man Plaid Shirt is a timeless and versatile men's shirt with a classic plaid pattern. Its comfortable fit and casual style make it a wardrobe essential for various occasions.",
+          "category": "mens-shirts",
+          "price": 34.99,
+          "discountPercentage": 17.53,
+          "rating": 3.66,
+          "stock": 65,
+          "tags": [
+            "clothing",
+            "men's shirts"
+          ],
+          "brand": "Classic Wear",
+          "sku": "TWL7HRBB",
+          "weight": 1,
+          "dimensions": {
+            "width": 29.56,
+            "height": 29.84,
+            "depth": 7.77
+          },
+          "warrantyInformation": "Lifetime warranty",
+          "shippingInformation": "Ships in 1 week",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 3,
+              "comment": "Would not buy again!",
+              "date": "2024-05-23T08:56:21.623Z",
+              "reviewerName": "Nora Mills",
+              "reviewerEmail": "nora.mills@x.dummyjson.com"
+            },
+            {
+              "rating": 1,
+              "comment": "Very disappointed!",
+              "date": "2024-05-23T08:56:21.623Z",
+              "reviewerName": "Addison Ward",
+              "reviewerEmail": "addison.ward@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Awesome product!",
+              "date": "2024-05-23T08:56:21.623Z",
+              "reviewerName": "Emily Brown",
+              "reviewerEmail": "emily.brown@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "30 days return policy",
+          "minimumOrderQuantity": 1,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.623Z",
+            "updatedAt": "2024-05-23T08:56:21.623Z",
+            "barcode": "9383795178668",
+            "qrCode": "https://dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/mens-shirts/Man%20Plaid%20Shirt/1.png",
+            "https://cdn.dummyjson.com/products/images/mens-shirts/Man%20Plaid%20Shirt/2.png",
+            "https://cdn.dummyjson.com/products/images/mens-shirts/Man%20Plaid%20Shirt/3.png",
+            "https://cdn.dummyjson.com/products/images/mens-shirts/Man%20Plaid%20Shirt/4.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/mens-shirts/Man%20Plaid%20Shirt/thumbnail.png",
+          "quantity": 1,
+          "user": 2,
+          "id": 86
+        },
+        {
+          "title": "Apple MacBook Pro 14 Inch Space Grey",
+          "description": "The MacBook Pro 14 Inch in Space Grey is a powerful and sleek laptop, featuring Apple's M1 Pro chip for exceptional performance and a stunning Retina display.",
+          "category": "laptops",
+          "price": 1999.99,
+          "discountPercentage": 9.25,
+          "rating": 3.13,
+          "stock": 39,
+          "tags": [
+            "laptops",
+            "apple"
+          ],
+          "brand": "Apple",
+          "sku": "QDKO6NRJ",
+          "weight": 4,
+          "dimensions": {
+            "width": 12.38,
+            "height": 21.55,
+            "depth": 27.95
+          },
+          "warrantyInformation": "1 month warranty",
+          "shippingInformation": "Ships in 1 week",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Would buy again!",
+              "date": "2024-05-23T08:56:21.622Z",
+              "reviewerName": "Hunter Gordon",
+              "reviewerEmail": "hunter.gordon@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Would buy again!",
+              "date": "2024-05-23T08:56:21.622Z",
+              "reviewerName": "Emma Wilson",
+              "reviewerEmail": "emma.wilson@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Very pleased!",
+              "date": "2024-05-23T08:56:21.622Z",
+              "reviewerName": "David Martinez",
+              "reviewerEmail": "david.martinez@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "30 days return policy",
+          "minimumOrderQuantity": 1,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.622Z",
+            "updatedAt": "2024-05-23T08:56:21.622Z",
+            "barcode": "3883623063065",
+            "qrCode": "https://dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/laptops/Apple%20MacBook%20Pro%2014%20Inch%20Space%20Grey/1.png",
+            "https://cdn.dummyjson.com/products/images/laptops/Apple%20MacBook%20Pro%2014%20Inch%20Space%20Grey/2.png",
+            "https://cdn.dummyjson.com/products/images/laptops/Apple%20MacBook%20Pro%2014%20Inch%20Space%20Grey/3.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/laptops/Apple%20MacBook%20Pro%2014%20Inch%20Space%20Grey/thumbnail.png",
+          "quantity": 1,
+          "user": 2,
+          "id": 87
+        },
+        {
+          "title": "Apple MacBook Pro 14 Inch Space Grey",
+          "description": "The MacBook Pro 14 Inch in Space Grey is a powerful and sleek laptop, featuring Apple's M1 Pro chip for exceptional performance and a stunning Retina display.",
+          "category": "laptops",
+          "price": 1999.99,
+          "discountPercentage": 9.25,
+          "rating": 3.13,
+          "stock": 39,
+          "tags": [
+            "laptops",
+            "apple"
+          ],
+          "brand": "Apple",
+          "sku": "QDKO6NRJ",
+          "weight": 4,
+          "dimensions": {
+            "width": 12.38,
+            "height": 21.55,
+            "depth": 27.95
+          },
+          "warrantyInformation": "1 month warranty",
+          "shippingInformation": "Ships in 1 week",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Would buy again!",
+              "date": "2024-05-23T08:56:21.622Z",
+              "reviewerName": "Hunter Gordon",
+              "reviewerEmail": "hunter.gordon@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Would buy again!",
+              "date": "2024-05-23T08:56:21.622Z",
+              "reviewerName": "Emma Wilson",
+              "reviewerEmail": "emma.wilson@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Very pleased!",
+              "date": "2024-05-23T08:56:21.622Z",
+              "reviewerName": "David Martinez",
+              "reviewerEmail": "david.martinez@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "30 days return policy",
+          "minimumOrderQuantity": 1,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.622Z",
+            "updatedAt": "2024-05-23T08:56:21.622Z",
+            "barcode": "3883623063065",
+            "qrCode": "https://dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/laptops/Apple%20MacBook%20Pro%2014%20Inch%20Space%20Grey/1.png",
+            "https://cdn.dummyjson.com/products/images/laptops/Apple%20MacBook%20Pro%2014%20Inch%20Space%20Grey/2.png",
+            "https://cdn.dummyjson.com/products/images/laptops/Apple%20MacBook%20Pro%2014%20Inch%20Space%20Grey/3.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/laptops/Apple%20MacBook%20Pro%2014%20Inch%20Space%20Grey/thumbnail.png",
+          "quantity": 1,
+          "user": 2,
+          "id": 88
+        }
+      ],
+      "totalAmount": 17034.96,
+      "totalItems": 4,
+      "user": {
+        "email": "demo@gmail.com",
+        "password": "Demo@123",
+        "addresses": [
+          {
+            "name": "Nauman Ansari",
+            "email": "naumanansari@outlook.com",
+            "phone": "9265820423",
+            "street": "Ab Street- ||",
+            "city": "Ahmadabad",
+            "state": "Gujrat",
+            "pinCode": "380021"
+          },
+          {
+            "name": "Izhan Ansari",
+            "email": "izhan@gmail.com",
+            "phone": "8254663322",
+            "street": "Gomtipur St.",
+            "city": "Ahmadabad",
+            "state": "Gujrat",
+            "pinCode": "380021"
+          }
+        ],
+        "id": 2
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Izhan Ansari",
+        "email": "izhan@gmail.com",
+        "phone": "8254663322",
+        "street": "Gomtipur St.",
+        "city": "Ahmadabad",
+        "state": "Gujrat",
+        "pinCode": "380021"
+      },
+      "status": "pending",
+      "id": 5
+    },
+    {
+      "items": [
+        {
+          "title": "Asus Zenbook Pro Dual Screen Laptop",
+          "description": "The Asus Zenbook Pro Dual Screen Laptop is a high-performance device with dual screens, providing productivity and versatility for creative professionals.",
+          "category": "laptops",
+          "price": 1799.99,
+          "discountPercentage": 9.21,
+          "rating": 3.14,
+          "stock": 38,
+          "tags": [
+            "laptops"
+          ],
+          "brand": "Asus",
+          "sku": "4A9KFMBG",
+          "weight": 8,
+          "dimensions": {
+            "width": 19.67,
+            "height": 11.05,
+            "depth": 14.32
+          },
+          "warrantyInformation": "No warranty",
+          "shippingInformation": "Ships in 3-5 business days",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Very satisfied!",
+              "date": "2024-05-23T08:56:21.622Z",
+              "reviewerName": "Jack Ward",
+              "reviewerEmail": "jack.ward@x.dummyjson.com"
+            },
+            {
+              "rating": 1,
+              "comment": "Very disappointed!",
+              "date": "2024-05-23T08:56:21.622Z",
+              "reviewerName": "Ava Harris",
+              "reviewerEmail": "ava.harris@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Great value for money!",
+              "date": "2024-05-23T08:56:21.622Z",
+              "reviewerName": "Brayden Fleming",
+              "reviewerEmail": "brayden.fleming@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "No return policy",
+          "minimumOrderQuantity": 1,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.622Z",
+            "updatedAt": "2024-05-23T08:56:21.622Z",
+            "barcode": "2899455033799",
+            "qrCode": "https://dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/laptops/Asus%20Zenbook%20Pro%20Dual%20Screen%20Laptop/1.png",
+            "https://cdn.dummyjson.com/products/images/laptops/Asus%20Zenbook%20Pro%20Dual%20Screen%20Laptop/2.png",
+            "https://cdn.dummyjson.com/products/images/laptops/Asus%20Zenbook%20Pro%20Dual%20Screen%20Laptop/3.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/laptops/Asus%20Zenbook%20Pro%20Dual%20Screen%20Laptop/thumbnail.png",
+          "quantity": 1,
+          "user": 1,
+          "id": 1
+        },
+        {
+          "title": "Asus Zenbook Pro Dual Screen Laptop",
+          "description": "The Asus Zenbook Pro Dual Screen Laptop is a high-performance device with dual screens, providing productivity and versatility for creative professionals.",
+          "category": "laptops",
+          "price": 1799.99,
+          "discountPercentage": 9.21,
+          "rating": 3.14,
+          "stock": 38,
+          "tags": [
+            "laptops"
+          ],
+          "brand": "Asus",
+          "sku": "4A9KFMBG",
+          "weight": 8,
+          "dimensions": {
+            "width": 19.67,
+            "height": 11.05,
+            "depth": 14.32
+          },
+          "warrantyInformation": "No warranty",
+          "shippingInformation": "Ships in 3-5 business days",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Very satisfied!",
+              "date": "2024-05-23T08:56:21.622Z",
+              "reviewerName": "Jack Ward",
+              "reviewerEmail": "jack.ward@x.dummyjson.com"
+            },
+            {
+              "rating": 1,
+              "comment": "Very disappointed!",
+              "date": "2024-05-23T08:56:21.622Z",
+              "reviewerName": "Ava Harris",
+              "reviewerEmail": "ava.harris@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Great value for money!",
+              "date": "2024-05-23T08:56:21.622Z",
+              "reviewerName": "Brayden Fleming",
+              "reviewerEmail": "brayden.fleming@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "No return policy",
+          "minimumOrderQuantity": 1,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.622Z",
+            "updatedAt": "2024-05-23T08:56:21.622Z",
+            "barcode": "2899455033799",
+            "qrCode": "https://dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/laptops/Asus%20Zenbook%20Pro%20Dual%20Screen%20Laptop/1.png",
+            "https://cdn.dummyjson.com/products/images/laptops/Asus%20Zenbook%20Pro%20Dual%20Screen%20Laptop/2.png",
+            "https://cdn.dummyjson.com/products/images/laptops/Asus%20Zenbook%20Pro%20Dual%20Screen%20Laptop/3.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/laptops/Asus%20Zenbook%20Pro%20Dual%20Screen%20Laptop/thumbnail.png",
+          "quantity": 1,
+          "user": 1,
+          "id": 2
+        }
+      ],
+      "totalAmount": 3599.98,
+      "totalItems": 2,
+      "user": {
+        "email": "test@gmail.com",
+        "password": "Abc@1234",
+        "addresses": [
+          {
+            "name": "Tariq Ansari",
+            "email": "tariqansari@gmail.com",
+            "phone": "8565321241",
+            "street": "Taj Street",
+            "city": "Ahmedabad",
+            "state": "Gujrat",
+            "pinCode": "380021"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Tariq Ansari",
+        "email": "tariqansari@gmail.com",
+        "phone": "8565321241",
+        "street": "Taj Street",
+        "city": "Ahmedabad",
+        "state": "Gujrat",
+        "pinCode": "380021"
+      },
+      "status": "pending",
+      "id": 6
     }
   ]
 }
