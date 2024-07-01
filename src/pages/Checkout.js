@@ -26,7 +26,7 @@ function CheckoutPage() {
   const {
     register,
     handleSubmit,
-    watch,
+    
     reset,
     formState: { errors },
   } = useForm();
@@ -67,7 +67,7 @@ function CheckoutPage() {
         user,
         paymentMethod,
         selectedAddress,
-        status:'pending' //order status can be delivered, received.
+        status:'pending', //order status can be delivered, received.
       };
       dispatch(createOrderAsync(order));
     }else{
@@ -383,7 +383,7 @@ function CheckoutPage() {
                   Cart Area
                 </h1>
                 <div className="flow-root">
-                  <ul role="list" className="-my-6 divide-y divide-gray-200">
+                  <ul  className="-my-6 divide-y divide-gray-200">
                     {items.map((item) => (
                       <li key={item.id} className="flex py-6">
                         <div className="h-24 w-24 flex-shrink-0 overflow-hidden rounded-md border border-gray-200">

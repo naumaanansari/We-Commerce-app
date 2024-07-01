@@ -9,7 +9,7 @@ function Logout() {
 
   useEffect(() => {
     dispatch(signOutAsync());
-  }, []);
+  });
 
   //Problem: UseEffect run after a render, so we have to delay navigate part
   return (

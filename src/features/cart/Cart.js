@@ -1,14 +1,7 @@
 import React, { useState, Fragment } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { deleteItemFromCartAsync, increment, incrementAsync, selectItems, updateCartAsync } from "./cartSlice";
-import {
-  Dialog,
-  DialogPanel,
-  DialogTitle,
-  Transition,
-  TransitionChild,
-} from "@headlessui/react";
-import { XMarkIcon } from "@heroicons/react/24/outline";
+import { deleteItemFromCartAsync, selectItems, updateCartAsync } from "./cartSlice";
+
 import { Link, Navigate } from "react-router-dom";
 
 
@@ -34,7 +27,7 @@ export default function Cart() {
 
   return (<>
   
-  {!items.length  && <Navigate to='/' replace={true}></Navigate>}
+  {!items.length  && <Navigate to="/" replace={true}></Navigate>}
     <div className="">
       <div className="bg-white mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8 mt-12 ">
         <div className="border-t border-gray-200 px-4 py-6 sm:px-6">
@@ -42,7 +35,7 @@ export default function Cart() {
             Cart Area
           </h1>
           <div className="flow-root">
-            <ul role="list" className="-my-6 divide-y divide-gray-200">
+            <ul  className="-my-6 divide-y divide-gray-200">
               {items.map((item) => (
                 <li key={item.id} className="flex py-6">
                   <div className="h-24 w-24 flex-shrink-0 overflow-hidden rounded-md border border-gray-200">

@@ -1,9 +1,6 @@
-import React, { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import {
   checkUserAsync,
-  increment,
-  incrementAsync,
   selectError,
   selectLoggedInUser,
 } from "../authSlice";
@@ -23,7 +20,7 @@ export default function Login() {
 
   return (
     <>
-    {user  && <Navigate to='/' replace={true}></Navigate>}
+    {user  && <Navigate to="/" replace={true}></Navigate>}
       <div>
         <div>
           <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
