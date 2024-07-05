@@ -7,8 +7,8 @@
       "category": "beauty",
       "price": 9.99,
       "discountPercentage": 7.17,
-      "rating": 4.94,
-      "stock": 5,
+      "rating": 4.36,
+      "stock": 15,
       "tags": [
         "beauty",
         "mascara"
@@ -56,7 +56,11 @@
         "qrCode": "https://dummyjson.com/public/qr-code.png"
       },
       "images": [
-        "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/1.png"
+        "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/1.png",
+        "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/1.png",
+        "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/1.png",
+        "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/1.png",
+        "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/thumbnail.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/thumbnail.png"
     },
@@ -6007,6 +6011,26 @@
         "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20Airpods/3.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20Airpods/thumbnail.png"
+    },
+    {
+      "title": "Amazon Echo Dot",
+      "description": "Your Personal Home Assistant.",
+      "brand": "Amazon",
+      "category": "home-decoration",
+      "price": 899.99,
+      "discountPercentage": 20,
+      "stock": 50,
+      "thumbnail": "https://cdn.dummyjson.com/products/images/mobile-accessories/Amazon%20Echo%20Plus/thumbnail.png",
+      "images": [
+        "https://cdn.dummyjson.com/products/images/mobile-accessories/Amazon%20Echo%20Plus/thumbnail.png",
+        "https://cdn.dummyjson.com/products/images/mobile-accessories/Amazon%20Echo%20Plus/thumbnail.png",
+        "https://cdn.dummyjson.com/products/images/mobile-accessories/Amazon%20Echo%20Plus/thumbnail.png",
+        "https://cdn.dummyjson.com/products/images/mobile-accessories/Amazon%20Echo%20Plus/thumbnail.png",
+        "https://cdn.dummyjson.com/products/images/mobile-accessories/Amazon%20Echo%20Plus/thumbnail.png"
+      ],
+      "rating": 1,
+      "id": 101,
+      "deleted": true
     }
   ],
   "brands": [
@@ -6227,6 +6251,7 @@
     {
       "email": "test@gmail.com",
       "password": "Abc@1234",
+      "role": "user",
       "addresses": [
         {
           "name": "Rabiya Ansari",
@@ -6252,6 +6277,7 @@
     {
       "email": "demo@gmail.com",
       "password": "Demo@123",
+      "role": "user",
       "addresses": [
         {
           "name": "Nauman Ansari",
@@ -6273,11 +6299,16 @@
         }
       ],
       "id": 2
+    },
+    {
+      "email": "admin@wecommerce.com",
+      "password": "Admin@123",
+      "addresses": [],
+      "role": "admin",
+      "id": 3
     }
   ],
-  "cart": [
-    
-  ],
+  "cart": [],
   "orders": [
     {
       "items": [
