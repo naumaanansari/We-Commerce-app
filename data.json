@@ -5,7 +5,7 @@
       "title": "Essence Mascara Lash Princess",
       "description": "The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.",
       "category": "beauty",
-      "price": 9.99,
+      "price": 79.99,
       "discountPercentage": 7.17,
       "rating": 4.36,
       "stock": 15,
@@ -6303,12 +6303,89 @@
     {
       "email": "admin@wecommerce.com",
       "password": "Admin@123",
-      "addresses": [],
+      "addresses": [
+        {
+          "name": "Alisha ",
+          "email": "Alisha@2819",
+          "phone": "545454545454",
+          "street": "abc st.",
+          "city": "ahmeda",
+          "state": "guj",
+          "pinCode": "ind"
+        }
+      ],
       "role": "admin",
       "id": 3
     }
   ],
-  "cart": [],
+  "cart": [
+    {
+      "title": "Essence Mascara Lash Princess",
+      "description": "The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.",
+      "category": "beauty",
+      "price": 79.99,
+      "discountPercentage": 7.17,
+      "rating": 4.36,
+      "stock": 15,
+      "tags": [
+        "beauty",
+        "mascara"
+      ],
+      "brand": "Essence",
+      "sku": "RCH45Q1A",
+      "weight": 2,
+      "dimensions": {
+        "width": 23.17,
+        "height": 14.43,
+        "depth": 28.01
+      },
+      "warrantyInformation": "1 month warranty",
+      "shippingInformation": "Ships in 1 month",
+      "availabilityStatus": "Low Stock",
+      "reviews": [
+        {
+          "rating": 2,
+          "comment": "Very unhappy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "John Doe",
+          "reviewerEmail": "john.doe@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Not as described!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Nolan Gonzalez",
+          "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very satisfied!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Scarlett Wright",
+          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+        }
+      ],
+      "returnPolicy": "30 days return policy",
+      "minimumOrderQuantity": 24,
+      "meta": {
+        "createdAt": "2024-05-23T08:56:21.618Z",
+        "updatedAt": "2024-05-23T08:56:21.618Z",
+        "barcode": "9164035109868",
+        "qrCode": "https://dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/1.png",
+        "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/1.png",
+        "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/1.png",
+        "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/1.png",
+        "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/thumbnail.png"
+      ],
+      "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/thumbnail.png",
+      "quantity": 1,
+      "user": 2,
+      "id": 1
+    }
+  ],
   "orders": [
     {
       "items": [
@@ -7436,6 +7513,542 @@
       },
       "status": "pending",
       "id": 6
+    },
+    {
+      "items": [
+        {
+          "title": "Blue & Black Check Shirt",
+          "description": "The Blue & Black Check Shirt is a stylish and comfortable men's shirt featuring a classic check pattern. Made from high-quality fabric, it's suitable for both casual and semi-formal occasions.",
+          "category": "mens-shirts",
+          "price": 29.99,
+          "discountPercentage": 1.41,
+          "rating": 4.19,
+          "stock": 44,
+          "tags": [
+            "clothing",
+            "men's shirts"
+          ],
+          "brand": "Fashion Trends",
+          "sku": "6RJDTVCU",
+          "weight": 6,
+          "dimensions": {
+            "width": 17.25,
+            "height": 27.31,
+            "depth": 20.88
+          },
+          "warrantyInformation": "No warranty",
+          "shippingInformation": "Ships in 1 month",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 4,
+              "comment": "Highly recommended!",
+              "date": "2024-05-23T08:56:21.623Z",
+              "reviewerName": "Mason Parker",
+              "reviewerEmail": "mason.parker@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Highly impressed!",
+              "date": "2024-05-23T08:56:21.623Z",
+              "reviewerName": "Avery Perez",
+              "reviewerEmail": "avery.perez@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Fast shipping!",
+              "date": "2024-05-23T08:56:21.623Z",
+              "reviewerName": "Nathan Reed",
+              "reviewerEmail": "nathan.reed@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "7 days return policy",
+          "minimumOrderQuantity": 4,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.623Z",
+            "updatedAt": "2024-05-23T08:56:21.623Z",
+            "barcode": "8840720880947",
+            "qrCode": "https://dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/mens-shirts/Blue%20&%20Black%20Check%20Shirt/1.png",
+            "https://cdn.dummyjson.com/products/images/mens-shirts/Blue%20&%20Black%20Check%20Shirt/2.png",
+            "https://cdn.dummyjson.com/products/images/mens-shirts/Blue%20&%20Black%20Check%20Shirt/3.png",
+            "https://cdn.dummyjson.com/products/images/mens-shirts/Blue%20&%20Black%20Check%20Shirt/4.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/mens-shirts/Blue%20&%20Black%20Check%20Shirt/thumbnail.png",
+          "quantity": 1,
+          "user": 1,
+          "id": 2
+        }
+      ],
+      "totalAmount": 30,
+      "totalItems": 1,
+      "user": {
+        "email": "test@gmail.com",
+        "password": "Abc@1234",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "Rabiya Ansari",
+            "email": "Rabiya@yahoo.com",
+            "phone": "8264419107",
+            "street": "C7, Taybah Residency, Ambar Tower Road",
+            "city": "Ahmadabad",
+            "state": "Gujrat",
+            "pinCode": "380055"
+          },
+          {
+            "name": "Jack Swagger",
+            "email": "jack@gmail.com",
+            "phone": "565666565656",
+            "street": "abcsbshchc",
+            "city": "scshch",
+            "state": "schsdc",
+            "pinCode": "shchsch"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "card",
+      "selectedAddress": {
+        "name": "Rabiya Ansari",
+        "email": "Rabiya@yahoo.com",
+        "phone": "8264419107",
+        "street": "C7, Taybah Residency, Ambar Tower Road",
+        "city": "Ahmadabad",
+        "state": "Gujrat",
+        "pinCode": "380055"
+      },
+      "status": "pending",
+      "id": 7
+    },
+    {
+      "items": [
+        {
+          "title": "Nike Air Jordan 1 Red And Black",
+          "description": "The Nike Air Jordan 1 in Red and Black is an iconic basketball sneaker known for its stylish design and high-performance features, making it a favorite among sneaker enthusiasts and athletes.",
+          "category": "mens-shoes",
+          "price": 149.99,
+          "discountPercentage": 15.82,
+          "rating": 2.77,
+          "stock": 15,
+          "tags": [
+            "footwear",
+            "athletic shoes"
+          ],
+          "brand": "Nike",
+          "sku": "84YC5J67",
+          "weight": 5,
+          "dimensions": {
+            "width": 19.29,
+            "height": 13.2,
+            "depth": 29.13
+          },
+          "warrantyInformation": "1 year warranty",
+          "shippingInformation": "Ships in 1 month",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 2,
+              "comment": "Very unhappy with my purchase!",
+              "date": "2024-05-23T08:56:21.623Z",
+              "reviewerName": "Victoria McDonald",
+              "reviewerEmail": "victoria.mcdonald@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Great product!",
+              "date": "2024-05-23T08:56:21.623Z",
+              "reviewerName": "Mason Parker",
+              "reviewerEmail": "mason.parker@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Fast shipping!",
+              "date": "2024-05-23T08:56:21.623Z",
+              "reviewerName": "Avery Perez",
+              "reviewerEmail": "avery.perez@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "7 days return policy",
+          "minimumOrderQuantity": 2,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.623Z",
+            "updatedAt": "2024-05-23T08:56:21.623Z",
+            "barcode": "0098559139691",
+            "qrCode": "https://dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/mens-shoes/Nike%20Air%20Jordan%201%20Red%20And%20Black/1.png",
+            "https://cdn.dummyjson.com/products/images/mens-shoes/Nike%20Air%20Jordan%201%20Red%20And%20Black/2.png",
+            "https://cdn.dummyjson.com/products/images/mens-shoes/Nike%20Air%20Jordan%201%20Red%20And%20Black/3.png",
+            "https://cdn.dummyjson.com/products/images/mens-shoes/Nike%20Air%20Jordan%201%20Red%20And%20Black/4.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/mens-shoes/Nike%20Air%20Jordan%201%20Red%20And%20Black/thumbnail.png",
+          "quantity": 1,
+          "user": 1,
+          "id": 2
+        }
+      ],
+      "totalAmount": 126,
+      "totalItems": 1,
+      "user": {
+        "email": "test@gmail.com",
+        "password": "Abc@1234",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "Rabiya Ansari",
+            "email": "Rabiya@yahoo.com",
+            "phone": "8264419107",
+            "street": "C7, Taybah Residency, Ambar Tower Road",
+            "city": "Ahmadabad",
+            "state": "Gujrat",
+            "pinCode": "380055"
+          },
+          {
+            "name": "Jack Swagger",
+            "email": "jack@gmail.com",
+            "phone": "565666565656",
+            "street": "abcsbshchc",
+            "city": "scshch",
+            "state": "schsdc",
+            "pinCode": "shchsch"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Rabiya Ansari",
+        "email": "Rabiya@yahoo.com",
+        "phone": "8264419107",
+        "street": "C7, Taybah Residency, Ambar Tower Road",
+        "city": "Ahmadabad",
+        "state": "Gujrat",
+        "pinCode": "380055"
+      },
+      "status": "pending",
+      "id": 8
+    },
+    {
+      "items": [
+        {
+          "title": "Dolce Shine Eau de",
+          "description": "Dolce Shine by Dolce & Gabbana is a vibrant and fruity fragrance, featuring notes of mango, jasmine, and blonde woods. It's a joyful and youthful scent.",
+          "category": "fragrances",
+          "price": 69.99,
+          "discountPercentage": 11.47,
+          "rating": 2.68,
+          "stock": 3,
+          "tags": [
+            "fragrances",
+            "perfumes"
+          ],
+          "brand": "Dolce & Gabbana",
+          "sku": "1NBFK980",
+          "weight": 5,
+          "dimensions": {
+            "width": 17,
+            "height": 24.57,
+            "depth": 13.3
+          },
+          "warrantyInformation": "5 year warranty",
+          "shippingInformation": "Ships in 1-2 business days",
+          "availabilityStatus": "Low Stock",
+          "reviews": [
+            {
+              "rating": 4,
+              "comment": "Very satisfied!",
+              "date": "2024-05-23T08:56:21.619Z",
+              "reviewerName": "Xavier Wright",
+              "reviewerEmail": "xavier.wright@x.dummyjson.com"
+            },
+            {
+              "rating": 1,
+              "comment": "Poor quality!",
+              "date": "2024-05-23T08:56:21.619Z",
+              "reviewerName": "Mila Hernandez",
+              "reviewerEmail": "mila.hernandez@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Very happy with my purchase!",
+              "date": "2024-05-23T08:56:21.619Z",
+              "reviewerName": "Sophia Brown",
+              "reviewerEmail": "sophia.brown@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "30 days return policy",
+          "minimumOrderQuantity": 9,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.619Z",
+            "updatedAt": "2024-05-23T08:56:21.619Z",
+            "barcode": "1939383392674",
+            "qrCode": "https://dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/fragrances/Dolce%20Shine%20Eau%20de/1.png",
+            "https://cdn.dummyjson.com/products/images/fragrances/Dolce%20Shine%20Eau%20de/2.png",
+            "https://cdn.dummyjson.com/products/images/fragrances/Dolce%20Shine%20Eau%20de/3.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/fragrances/Dolce%20Shine%20Eau%20de/thumbnail.png",
+          "quantity": 1,
+          "user": 1,
+          "id": 2
+        }
+      ],
+      "totalAmount": 62,
+      "totalItems": 1,
+      "user": {
+        "email": "test@gmail.com",
+        "password": "Abc@1234",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "Rabiya Ansari",
+            "email": "Rabiya@yahoo.com",
+            "phone": "8264419107",
+            "street": "C7, Taybah Residency, Ambar Tower Road",
+            "city": "Ahmadabad",
+            "state": "Gujrat",
+            "pinCode": "380055"
+          },
+          {
+            "name": "Jack Swagger",
+            "email": "jack@gmail.com",
+            "phone": "565666565656",
+            "street": "abcsbshchc",
+            "city": "scshch",
+            "state": "schsdc",
+            "pinCode": "shchsch"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "card",
+      "selectedAddress": {
+        "name": "Jack Swagger",
+        "email": "jack@gmail.com",
+        "phone": "565666565656",
+        "street": "abcsbshchc",
+        "city": "scshch",
+        "state": "schsdc",
+        "pinCode": "shchsch"
+      },
+      "status": "pending",
+      "id": 9
+    },
+    {
+      "items": [
+        {
+          "title": "Table Lamp",
+          "description": "The Table Lamp is a functional and decorative lighting solution for your living space. With a modern design, it provides both ambient and task lighting, enhancing the atmosphere.",
+          "category": "home-decoration",
+          "price": 49.99,
+          "discountPercentage": 0.59,
+          "rating": 4.56,
+          "stock": 84,
+          "tags": [
+            "home decor",
+            "lighting"
+          ],
+          "sku": "0K9UDIUB",
+          "weight": 2,
+          "dimensions": {
+            "width": 29.6,
+            "height": 19.68,
+            "depth": 10.12
+          },
+          "warrantyInformation": "1 year warranty",
+          "shippingInformation": "Ships in 2 weeks",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 3,
+              "comment": "Not worth the price!",
+              "date": "2024-05-23T08:56:21.621Z",
+              "reviewerName": "Mateo Nguyen",
+              "reviewerEmail": "mateo.nguyen@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Very satisfied!",
+              "date": "2024-05-23T08:56:21.621Z",
+              "reviewerName": "James Garcia",
+              "reviewerEmail": "james.garcia@x.dummyjson.com"
+            },
+            {
+              "rating": 1,
+              "comment": "Waste of money!",
+              "date": "2024-05-23T08:56:21.621Z",
+              "reviewerName": "Henry Turner",
+              "reviewerEmail": "henry.turner@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "30 days return policy",
+          "minimumOrderQuantity": 10,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.621Z",
+            "updatedAt": "2024-05-23T08:56:21.621Z",
+            "barcode": "7764806947768",
+            "qrCode": "https://dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/home-decoration/Table%20Lamp/1.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/home-decoration/Table%20Lamp/thumbnail.png",
+          "quantity": 1,
+          "user": 1,
+          "id": 2
+        }
+      ],
+      "totalAmount": 50,
+      "totalItems": 1,
+      "user": {
+        "email": "test@gmail.com",
+        "password": "Abc@1234",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "Rabiya Ansari",
+            "email": "Rabiya@yahoo.com",
+            "phone": "8264419107",
+            "street": "C7, Taybah Residency, Ambar Tower Road",
+            "city": "Ahmadabad",
+            "state": "Gujrat",
+            "pinCode": "380055"
+          },
+          {
+            "name": "Jack Swagger",
+            "email": "jack@gmail.com",
+            "phone": "565666565656",
+            "street": "abcsbshchc",
+            "city": "scshch",
+            "state": "schsdc",
+            "pinCode": "shchsch"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Jack Swagger",
+        "email": "jack@gmail.com",
+        "phone": "565666565656",
+        "street": "abcsbshchc",
+        "city": "scshch",
+        "state": "schsdc",
+        "pinCode": "shchsch"
+      },
+      "status": "pending",
+      "id": 10
+    },
+    {
+      "items": [
+        {
+          "title": "Silver Pot With Glass Cap",
+          "description": "The Silver Pot with Glass Cap is a stylish and functional cookware item for boiling, simmering, and preparing delicious meals. Its glass cap allows you to monitor cooking progress.",
+          "category": "kitchen-accessories",
+          "price": 39.99,
+          "discountPercentage": 4.57,
+          "rating": 3.86,
+          "stock": 37,
+          "tags": [
+            "cookware",
+            "pots"
+          ],
+          "sku": "BSFNUA3V",
+          "weight": 9,
+          "dimensions": {
+            "width": 9.58,
+            "height": 25.84,
+            "depth": 26.13
+          },
+          "warrantyInformation": "Lifetime warranty",
+          "shippingInformation": "Ships in 1 week",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Highly impressed!",
+              "date": "2024-05-23T08:56:21.622Z",
+              "reviewerName": "Addison Wright",
+              "reviewerEmail": "addison.wright@x.dummyjson.com"
+            },
+            {
+              "rating": 3,
+              "comment": "Not worth the price!",
+              "date": "2024-05-23T08:56:21.622Z",
+              "reviewerName": "Ava Taylor",
+              "reviewerEmail": "ava.taylor@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Excellent quality!",
+              "date": "2024-05-23T08:56:21.622Z",
+              "reviewerName": "Avery Scott",
+              "reviewerEmail": "avery.scott@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "7 days return policy",
+          "minimumOrderQuantity": 19,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.622Z",
+            "updatedAt": "2024-05-23T08:56:21.622Z",
+            "barcode": "6630860592730",
+            "qrCode": "https://dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/kitchen-accessories/Silver%20Pot%20With%20Glass%20Cap/1.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/kitchen-accessories/Silver%20Pot%20With%20Glass%20Cap/thumbnail.png",
+          "quantity": 1,
+          "user": 1,
+          "id": 2
+        }
+      ],
+      "totalAmount": 38,
+      "totalItems": 1,
+      "user": {
+        "email": "test@gmail.com",
+        "password": "Abc@1234",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "Rabiya Ansari",
+            "email": "Rabiya@yahoo.com",
+            "phone": "8264419107",
+            "street": "C7, Taybah Residency, Ambar Tower Road",
+            "city": "Ahmadabad",
+            "state": "Gujrat",
+            "pinCode": "380055"
+          },
+          {
+            "name": "Jack Swagger",
+            "email": "jack@gmail.com",
+            "phone": "565666565656",
+            "street": "abcsbshchc",
+            "city": "scshch",
+            "state": "schsdc",
+            "pinCode": "shchsch"
+          }
+        ],
+        "id": 1
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Jack Swagger",
+        "email": "jack@gmail.com",
+        "phone": "565666565656",
+        "street": "abcsbshchc",
+        "city": "scshch",
+        "state": "schsdc",
+        "pinCode": "shchsch"
+      },
+      "status": "pending",
+      "id": 11
     }
   ]
 }
