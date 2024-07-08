@@ -158,22 +158,24 @@ function Navbar({ children }) {
 
             <DisclosurePanel className="md:hidden">
               <div className="space-y-1 px-2 pb-3 pt-2 sm:px-3">
-                {navigation.map((item) => (
-                  <DisclosureButton
-                    key={item.name}
-                    as="a"
-                    href={item.href}
-                    className={classNames(
-                      item.current
-                        ? "bg-gray-900 text-white"
-                        : "text-gray-300 hover:bg-gray-700 hover:text-white",
-                      "block rounded-md px-3 py-2 text-base font-medium"
-                    )}
-                    aria-current={item.current ? "page" : undefined}
-                  >
-                    {item.name}
-                  </DisclosureButton>
-                ))}
+                
+                {navigation.map((item) =>
+                        item[user.role] ? (
+                          <Link
+                            key={item.name}
+                            to={item.link}
+                            className={classNames(
+                              item.current
+                                ? "bg-gray-900 text-white"
+                                : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                              "block rounded-md px-3 py-2 text-base font-medium"
+                            )}
+                            aria-current={item.current ? "page" : undefined}
+                          >
+                            {item.name}
+                          </Link>
+                        ) : null
+                      )}
               </div>
               <div className="border-t border-gray-700 pb-3 pt-4">
                 <div className="flex items-center px-5">
@@ -217,14 +219,15 @@ function Navbar({ children }) {
                 </div>
                 <div className="mt-3 space-y-1 px-2">
                   {userNavigation.map((item) => (
-                    <DisclosureButton
+                    <Link
                       key={item.name}
-                      as="a"
-                      href={item.href}
+                      
+                      to={item.link}
+                      
                       className="block rounded-md px-3 py-2 text-base font-medium text-gray-400 hover:bg-gray-700 hover:text-white"
                     >
                       {item.name}
-                    </DisclosureButton>
+                    </Link>
                   ))}
                 </div>
               </div>

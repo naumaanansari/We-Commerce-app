@@ -56,11 +56,11 @@ export default function UserProfile() {
   return (
     <div>
       <div className="bg-white mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8 mt-12 ">
-        <div className="border-t border-gray-200 px-4 py-6 sm:px-6">
-          <h1 className="text-4xl font-bold tracking-tight text-gray-900 my-5">
-            Name: {user.name ? user.name : "Guest"}
+        <div className="border-t border-gray-200 px-4 py-2 sm:px-6 sm:py-6">
+          <h1 className="text-2xl sm:text-4xl font-bold tracking-tight text-gray-900  sm:my-5">
+            Welcome, {user.name ? user.name : "Guest"}.
           </h1>
-          <h3 className="text-xl font-bold tracking-tight text-red-900 my-5">
+          <h3 className="text-md sm:text-xl font-semibold sm:font-bold tracking-tight text-red-900 sm:my-5">
             Email Address: {user.email}
           </h3>
           {user.role === "admin" && (

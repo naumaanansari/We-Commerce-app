@@ -455,9 +455,9 @@ function ProductGrid({ products , status}) {
             <Link to={`/product-detail/${product.id}`}>
               <div
                 key={product.id}
-                className="group relative p-2 bg-gray-100 border border-gray-300 rounded-xl"
+                className="group relative p-2 bg-gray-50 border border-gray-200 rounded-xl"
               >
-                <div className="min-h-60 aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-60">
+                <div className="min-h-60 aspect-h-1 aspect-w-1  sm:w-full overflow-hidden rounded-md bg-gray-100 lg:aspect-none group-hover:opacity-75 lg:h-60">
                   <img
                     src={product.thumbnail}
                     alt={product.title}
@@ -466,7 +466,7 @@ function ProductGrid({ products , status}) {
                 </div>
                 <div className="mt-4 flex justify-between items-center">
                   <div className="flex flex-col gap-1">
-                    <h3 className="text-sm text-gray-700">
+                    <h3 className="text-sm text-gray-800">
                       <div href={product.thumbnail}>
                         <span aria-hidden="true" className="absolute inset-0" />
                         {product.title}
