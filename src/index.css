@@ -14,3 +14,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.scroll-container {
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.scroll-container::-webkit-scrollbar {
+  width: 12px;
+}
+
+.scroll-container::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background-color: rgb(14, 165, 233);
+  border-radius: 20px;
+  border: 3px solid transparent;
+  background-clip: content-box;
+}
+
+.scroll-container::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(14, 165, 233, 0.8);
+}
+
+.scroll-container::-webkit-scrollbar-thumb:active {
+  background-color: rgb(14, 165, 233, 0.6);
+}

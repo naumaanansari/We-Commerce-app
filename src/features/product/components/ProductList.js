@@ -8,6 +8,7 @@ import {
   selectAllProducts,
   selectBrands,
   selectCategories,
+  selectProductListStatus,
   selectTotalItems,
 } from "../productSlice";
 import {
@@ -38,8 +39,7 @@ import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/20/solid";
 import { Link } from "react-router-dom";
 import { discountedPrice, ITEMS_PER_PAGE } from "../../../app/constants";
 import Pagination from "../../common/Pagination";
-
-
+import { Grid } from "react-loader-spinner";
 
 const sortOptions = [
   { name: "Best Rating", sort: "rating", order: "desc", current: false },
@@ -47,9 +47,6 @@ const sortOptions = [
   { name: "Price: High to Low", sort: "price", order: "desc", current: false },
   { name: "Remove Filter", sort: "", order: "", current: false },
 ];
-
-
-
 
 export default function ProductList() {
   const dispatch = useDispatch();
@@ -62,7 +59,7 @@ export default function ProductList() {
   const [filter, setFilter] = useState({});
   const [sort, setSort] = useState({});
   const [page, setPage] = useState(1);
-
+  const status= useSelector(selectProductListStatus)
 
   const filters = [
     {
@@ -70,7 +67,7 @@ export default function ProductList() {
       name: "Category",
       options: categories,
     },
-  
+
     {
       id: "brand",
       name: "Brands",
@@ -108,15 +105,14 @@ export default function ProductList() {
   };
 
   //Page Handling Function
-  const handlePage = ( page) => {
+  const handlePage = (page) => {
     // console.log({page});
-    
+
     setPage(page);
   };
 
   //Render the page at dispatch, sort, filter, page
   useEffect(() => {
-    
     const pagination = { _page: page, _limit: ITEMS_PER_PAGE };
     dispatch(fetchProductsByFiltersAsync({ filter, sort, pagination }));
     //TODO: Server Will Filter the the deleted products.
@@ -124,15 +120,14 @@ export default function ProductList() {
 
   //Render the page at totalItems,sort
   useEffect(() => {
-  setPage(1)
-  }, [totalItems,sort])
-  
+    setPage(1);
+  }, [totalItems, sort]);
+
   //Render the page at totalItems,sort
   useEffect(() => {
-    dispatch(fetchBrandsAsync())
-    dispatch(fetchCategoriesAsync())
-    }, [totalItems,sort])
-    
+    dispatch(fetchBrandsAsync());
+    dispatch(fetchCategoriesAsync());
+  }, [totalItems, sort]);
 
   return (
     <div>
@@ -226,12 +221,31 @@ export default function ProductList() {
 
                 <div className="grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-4">
                   {/* Filters */}
-                  <DesktopFilter handleFilter={handleFilter} filters={filters}></DesktopFilter>
+                  <DesktopFilter
+                    handleFilter={handleFilter}
+                    filters={filters}
+                  ></DesktopFilter>
 
                   {/* Product grid */}
                   <div className="lg:col-span-3">
+                    
                     {/* Product List Page Starts Here */}
-                    <ProductGrid products={products}></ProductGrid>
+                    { status==="loading"?
+          <div className="mx-auto">
+            <Grid
+              
+              visible={true}
+              height="80"
+              width="80"
+              color=" rgb(18 ,165, 233 )"
+              ariaLabel="grid-loading"
+              radius="12.5"
+              wrapperStyle={{}}
+              wrapperClass="grid-wrapper"
+            />
+          </div> : <ProductGrid products={products} status={status}></ProductGrid>
+        }
+                    
                     {/* Product List Page Ends Here */}
                   </div>
                   {/* Product Grid Ends Here */}
@@ -261,7 +275,7 @@ function MobileFilter({
   mobileFiltersOpen,
   setMobileFiltersOpen,
   handleFilter,
-  filters
+  filters,
 }) {
   return (
     <Transition show={mobileFiltersOpen}>
@@ -348,7 +362,7 @@ function MobileFilter({
                                   onChange={(e) =>
                                     handleFilter(e, section, option)
                                   }
-                                  className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"
+                                  className="h-4 w-4 rounded border-gray-300 text-sky-600 focus:ring-sky-500"
                                 />
                                 <label
                                   htmlFor={`filter-mobile-${section.id}-${optionIdx}`}
@@ -409,7 +423,7 @@ function DesktopFilter({ handleFilter, filters }) {
                         type="checkbox"
                         defaultChecked={option.checked}
                         onChange={(e) => handleFilter(e, section, option)}
-                        className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"
+                        className="h-4 w-4 rounded border-gray-300 text-sky-600 focus:ring-sky-500"
                       />
                       <label
                         htmlFor={`filter-${section.id}-${optionIdx}`}
@@ -429,11 +443,13 @@ function DesktopFilter({ handleFilter, filters }) {
   );
 }
 
-
-function ProductGrid({ products }) {
+function ProductGrid({ products , status}) {
+  
   return (
     <div className="bg-white">
       <div className="mx-auto max-w-2xl px-4 py-0 sm:px-6 sm:py-0 lg:max-w-7xl lg:px-8">
+      
+
         <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
           {products.map((product) => (
             <Link to={`/product-detail/${product.id}`}>
@@ -463,8 +479,7 @@ function ProductGrid({ products }) {
                   </div>
                   <div className="flex flex-col gap-1">
                     <p className="text-sm font-medium text-gray-900 ">
-                      $
-                      {discountedPrice(product)}
+                      ${discountedPrice(product)}
                     </p>
 
                     <p className="text-sm font-medium text-gray-400 line-through">
@@ -473,15 +488,17 @@ function ProductGrid({ products }) {
                   </div>
                 </div>
                 {product.deleted && (
-                    <div className="">
-                      <p className="text-red-400 text-sm">Product Deleted</p>
-                    </div>
-                  )}
-                  {product.stock <=0 && (
-                    <div className="">
-                      <p className="text-red-400 text-sm">Product Out Of Stock.</p>
-                    </div>
-                  )}
+                  <div className="">
+                    <p className="text-red-400 text-sm">Product Deleted</p>
+                  </div>
+                )}
+                {product.stock <= 0 && (
+                  <div className="">
+                    <p className="text-red-400 text-sm">
+                      Product Out Of Stock.
+                    </p>
+                  </div>
+                )}
               </div>
             </Link>
           ))}

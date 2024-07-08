@@ -202,7 +202,7 @@ export default function AdminProductDetail() {
               <div className="mt-10">
                 <div className="flex items-center justify-between">
                   <h3 className="text-sm font-medium text-gray-900">Size</h3>
-                  <a href="#" className="text-sm font-medium text-indigo-600 hover:text-indigo-500">
+                  <a href="#" className="text-sm font-medium text-sky-600 hover:text-sky-500">
                     Size guide
                   </a>
                 </div>
@@ -223,7 +223,7 @@ export default function AdminProductDetail() {
                             size.inStock
                               ? 'cursor-pointer bg-white text-gray-900 shadow-sm'
                               : 'cursor-not-allowed bg-gray-50 text-gray-200',
-                            focus ? 'ring-2 ring-indigo-500' : '',
+                            focus ? 'ring-2 ring-sky-500' : '',
                             'group relative flex items-center justify-center rounded-md border px-4 py-3 text-sm font-medium uppercase hover:bg-gray-50 focus:outline-none sm:flex-1 sm:py-6',
                           )
                         }
@@ -234,7 +234,7 @@ export default function AdminProductDetail() {
                             {size.inStock ? (
                               <span
                                 className={classNames(
-                                  checked ? 'border-indigo-500' : 'border-transparent',
+                                  checked ? 'border-sky-500' : 'border-transparent',
                                   focus ? 'border' : 'border-2',
                                   'pointer-events-none absolute -inset-px rounded-md',
                                 )}
@@ -266,7 +266,7 @@ export default function AdminProductDetail() {
               <button
               onClick={handleCart}
                 type="submit"
-                className="mt-10 flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                className="mt-10 flex w-full items-center justify-center rounded-md border border-transparent bg-sky-600 px-8 py-3 text-base font-medium text-white hover:bg-sky-700 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2"
               >
                 Add to Cart
               </button>

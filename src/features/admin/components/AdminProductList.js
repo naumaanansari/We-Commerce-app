@@ -376,7 +376,7 @@ function MobileFilter({
                                   onChange={(e) =>
                                     handleFilter(e, section, option)
                                   }
-                                  className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"
+                                  className="h-4 w-4 rounded border-gray-300 text-sky-600 focus:ring-sky-500"
                                 />
                                 <label
                                   htmlFor={`filter-mobile-${section.id}-${optionIdx}`}
@@ -437,7 +437,7 @@ function DesktopFilter({ handleFilter, filters }) {
                         type="checkbox"
                         defaultChecked={option.checked}
                         onChange={(e) => handleFilter(e, section, option)}
-                        className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"
+                        className="h-4 w-4 rounded border-gray-300 text-sky-600 focus:ring-sky-500"
                       />
                       <label
                         htmlFor={`filter-${section.id}-${optionIdx}`}
@@ -510,9 +510,9 @@ function DesktopFilter({ handleFilter, filters }) {
 //                 aria-current="page"
 //                 className={`cursor-pointer relative z-10 inline-flex items-center ${
 //                   index + 1 === page
-//                     ? "bg-indigo-600 text-white"
+//                     ? "bg-sky-600 text-white"
 //                     : "text-gray-800 ring-1 ring-inset ring-gray-300"
-//                 } px-4 py-2 text-sm font-semibold text-white focus:z-20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2  focus-visible:outline-indigo-600`}
+//                 } px-4 py-2 text-sm font-semibold text-white focus:z-20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2  focus-visible:outline-sky-600`}
 //               >
 //                 {index + 1}
 //               </div>
@@ -593,7 +593,7 @@ function ProductGrid({ products }) {
               <div className="mt-4">
                 <Link
                   to={`/admin/product-form/edit/${product.id}`}
-                  className="rounded-md my-2 bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                  className="rounded-md my-2 bg-sky-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-sky-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
                 >
                   Edit Product
                 </Link>

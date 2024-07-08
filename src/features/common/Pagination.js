@@ -48,7 +48,7 @@ export default function Pagination({ handlePage, page, setPage, totalItems }) {
                   <div
                     onClick={(e)=>handlePage(index+1)}
                     aria-current="page"
-                    className={`cursor-pointer relative z-10 inline-flex items-center ${index+1===page? "bg-indigo-600 text-white":"text-gray-800 ring-1 ring-inset ring-gray-300"} px-4 py-2 text-sm font-semibold  focus:z-20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2  focus-visible:outline-indigo-600`}
+                    className={`cursor-pointer relative z-10 inline-flex items-center ${index+1===page? "bg-sky-600 text-white":"text-gray-800 ring-1 ring-inset ring-gray-300"} px-4 py-2 text-sm font-semibold  focus:z-20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2  focus-visible:outline-sky-600`}
                   >
                     {index+1}
                   </div>

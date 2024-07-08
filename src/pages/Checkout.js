@@ -14,11 +14,14 @@ import {
 import { createOrderAsync, selectCurrentOrder } from "../features/order/orderSlice";
 import { selectUserInfo } from "../features/user/userSlice";
 import { discountedPrice } from "../app/constants";
+import { useAlert } from "react-alert";
 
 
 function CheckoutPage() {
   const [open, setOpen] = useState(true);
   const items = useSelector(selectItems);
+  const alert = useAlert()
+
   const totalAmount = items.reduce(
     (amount, item) => discountedPrice(item) * item.quantity + amount,
     0
@@ -71,9 +74,10 @@ function CheckoutPage() {
         status:'pending', //order status can be delivered, received.
       };
       dispatch(createOrderAsync(order));
+      alert.success("Order Placed Successfully :>");
     }else{
       //TODO: We can Use Proper Messaging Pop-ups
-      alert("Enter Address and Payment Method")
+      alert.error("Select Address and Payment Method")
     }
 
     //TODO: Redirect to order-success page
@@ -129,7 +133,7 @@ function CheckoutPage() {
                           })}
                           id="name"
                           autoComplete="given-name"
-                          className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                          className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-sky-600 sm:text-sm sm:leading-6"
                         />
                       </div>
                     </div>
@@ -149,7 +153,7 @@ function CheckoutPage() {
                           })}
                           type="email"
                           autoComplete="email"
-                          className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                          className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-sky-600 sm:text-sm sm:leading-6"
                         />
                       </div>
                     </div>
@@ -169,7 +173,7 @@ function CheckoutPage() {
                           })}
                           id="phone"
                           autoComplete="phone"
-                          className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                          className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-sky-600 sm:text-sm sm:leading-6"
                         />
                       </div>
                     </div>
@@ -189,7 +193,7 @@ function CheckoutPage() {
                           })}
                           id="street"
                           autoComplete="street"
-                          className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                          className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-sky-600 sm:text-sm sm:leading-6"
                         />
                       </div>
                     </div>
@@ -209,7 +213,7 @@ function CheckoutPage() {
                           })}
                           id="city"
                           autoComplete="city"
-                          className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                          className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-sky-600 sm:text-sm sm:leading-6"
                         />
                       </div>
                     </div>
@@ -229,7 +233,7 @@ function CheckoutPage() {
                           })}
                           id="state"
                           autoComplete="state"
-                          className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                          className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-sky-600 sm:text-sm sm:leading-6"
                         />
                       </div>
                     </div>
@@ -249,7 +253,7 @@ function CheckoutPage() {
                           })}
                           id="pinCode"
                           autoComplete="pinCode"
-                          className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                          className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-sky-600 sm:text-sm sm:leading-6"
                         />
                       </div>
                     </div>
@@ -264,7 +268,7 @@ function CheckoutPage() {
                   </button>
                   <button
                     type="submit"
-                    className="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                    className="rounded-md bg-sky-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-sky-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
                   >
                     Add Address
                   </button>
@@ -292,7 +296,7 @@ function CheckoutPage() {
                             name="address"
                             type="radio"
                             value={index}
-                            className="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600"
+                            className="h-4 w-4 border-gray-300 text-sky-600 focus:ring-sky-600"
                           />
                           <div className="min-w-0 flex-auto ">
                             <p className="text-sm font-semibold leading-6 text-gray-900">
@@ -341,7 +345,7 @@ function CheckoutPage() {
                             value="cash"
                             checked={paymentMethod === "cash"}
                             type="radio"
-                            className="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600"
+                            className="h-4 w-4 border-gray-300 text-sky-600 focus:ring-sky-600"
                           />
                           <label
                             htmlFor="cash"
@@ -358,7 +362,7 @@ function CheckoutPage() {
                             value="card"
                             checked={paymentMethod === "card"}
                             type="radio"
-                            className="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600"
+                            className="h-4 w-4 border-gray-300 text-sky-600 focus:ring-sky-600"
                           />
                           <label
                             htmlFor="card"
@@ -437,7 +441,7 @@ function CheckoutPage() {
                               <button
                                 onClick={(e) => handleRemove(e, item.id)}
                                 type="button"
-                                className="font-medium text-indigo-600 hover:text-indigo-500"
+                                className="font-medium text-sky-600 hover:text-sky-500"
                               >
                                 Remove
                               </button>
@@ -465,7 +469,7 @@ function CheckoutPage() {
                 <div className="mt-6">
                   <div
                     onClick={handleOrder}
-                    className="flex cursor-pointer items-center justify-center rounded-md border border-transparent bg-indigo-600 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-indigo-700"
+                    className="flex cursor-pointer items-center justify-center rounded-md border border-transparent bg-sky-600 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-sky-700"
                   >
                     Order Now
                   </div>
@@ -476,7 +480,7 @@ function CheckoutPage() {
                     <Link to="/">
                       <button
                         type="button"
-                        className="font-medium text-indigo-600 hover:text-indigo-500"
+                        className="font-medium text-sky-600 hover:text-sky-500"
                         onClick={() => setOpen(false)}
                       >
                         Continue Shopping
