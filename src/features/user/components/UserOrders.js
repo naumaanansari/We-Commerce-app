@@ -38,8 +38,8 @@ export default function UserOrders() {
                       >
                         <div className="w-[60%] mx-auto mb-4 sm:mb-0 h-auto sm:h-24 sm:w-24 flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
                           <img
-                            src={item.thumbnail}
-                            alt={item.title}
+                            src={item.product.thumbnail}
+                            alt={item.product.title}
                             className="h-full w-full object-cover object-center"
                           />
                         </div>
@@ -48,12 +48,12 @@ export default function UserOrders() {
                           <div>
                             <div className="flex justify-between text-sm sm:text-base font-medium text-gray-900 ">
                               <h3>
-                                <a href={item.href}>{item.title}</a>
+                                <a href={item.product.id}>{item.product.title}</a>
                               </h3>
-                              <p className="ml-4 text-green-700">${discountedPrice(item)}</p>
+                              <p className="ml-4 text-green-700">${discountedPrice(item.product)}</p>
                             </div>
                             <p className="mt-1 text-sm text-gray-500">
-                              {item.brand}
+                              {item.product.brand}
                             </p>
                           </div>
                           <div className="flex flex-1 items-end justify-between text-sm">

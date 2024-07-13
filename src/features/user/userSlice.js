@@ -75,8 +75,8 @@ export const userSlice = createSlice({
   },
 });
 
-export const { increment } = userSlice.actions;
 
+//TODO: Change Orders And Addresses to be independent of user;
 export const selectUserOrders =  (state)=> state.user.userOrders 
 export const  selectUserInfo =  (state)=> state.user.userInfo  
 
