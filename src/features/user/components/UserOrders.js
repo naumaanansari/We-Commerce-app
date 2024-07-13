@@ -9,12 +9,12 @@ import { discountedPrice } from "../../../app/constants";
 
 export default function UserOrders() {
   const dispatch = useDispatch();
-  const user = useSelector(selectUserInfo);
+  const userInfo = useSelector(selectUserInfo);
   const orders = useSelector(selectUserOrders);
 
   useEffect(() => {
-    dispatch(fetchLoggedInUserOrdersAsync(user.id));
-  }, [dispatch, user]);
+    dispatch(fetchLoggedInUserOrdersAsync(userInfo.id));
+  }, [dispatch, userInfo]);
 
   return (
     <div>

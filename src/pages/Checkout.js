@@ -7,12 +7,11 @@ import {
   updateCartAsync,
 } from "../features/cart/cartSlice";
 import { useForm } from "react-hook-form";
-import {
+
   
-  updateUserAsync,
-} from "../features/auth/authSlice";
+  
 import { createOrderAsync, selectCurrentOrder } from "../features/order/orderSlice";
-import { selectUserInfo } from "../features/user/userSlice";
+import { selectUserInfo, updateUserAsync } from "../features/user/userSlice";
 import { discountedPrice } from "../app/constants";
 import { useAlert } from "react-alert";
 

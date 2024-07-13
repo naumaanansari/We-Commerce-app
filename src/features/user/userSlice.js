@@ -2,7 +2,6 @@ import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import {  fetchLoggedInUser, fetchLoggedInUserOrders, updateUser } from './userAPI';
 
 const initialState = {
-  userOrders: [],
   status: 'idle',
   userInfo: null,  //This can be use in case of detailed user info, while auth will only be used for loggedInUser  id checks etc.
 };
@@ -29,8 +28,8 @@ export const fetchLoggedInUserAsync = createAsyncThunk(
 
 export const updateUserAsync = createAsyncThunk(
   'user/updateUser',
-  async (id) => {
-    const response = await updateUser(id);
+  async (update) => {
+    const response = await updateUser(update);
     // The value we return becomes the `fulfilled` action payload
     return response.data;
   }
@@ -56,14 +55,15 @@ export const userSlice = createSlice({
       .addCase(fetchLoggedInUserOrdersAsync.fulfilled, (state, action) => {
         state.status = 'idle';
         //this info can be different or more from logged In user
-        state.userOrders = action.payload;
+        state.userInfo.orders = action.payload;
       })
       .addCase(updateUserAsync.pending, (state) => {
         state.status = 'loading';
       })
       .addCase(updateUserAsync.fulfilled, (state, action) => {
         state.status = 'idle';  
-        state.userOrders = action.payload;
+        //earlier there was a loggedInUser variable in other slice
+        state.userInfo = action.payload;
       })
       .addCase(fetchLoggedInUserAsync.pending, (state) => {
         state.status = 'loading';
@@ -77,7 +77,7 @@ export const userSlice = createSlice({
 
 
 //TODO: Change Orders And Addresses to be independent of user;
-export const selectUserOrders =  (state)=> state.user.userOrders 
+export const selectUserOrders = (state) => state.user.userInfo.orders;
 export const  selectUserInfo =  (state)=> state.user.userInfo  
 
 

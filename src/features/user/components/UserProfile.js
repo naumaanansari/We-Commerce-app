@@ -5,7 +5,7 @@ import { useForm } from "react-hook-form";
 
 export default function UserProfile() {
   const dispatch = useDispatch();
-  const user = useSelector(selectUserInfo);
+  const userInfo = useSelector(selectUserInfo);
   const [selectedEditIndex, setSelectedEditIndex] = useState(-1);
   const [showAddAddressForm, setshowAddAddressForm] = useState(false);
 
@@ -21,7 +21,7 @@ export default function UserProfile() {
 
   //To Edit the Saved Address
   const handleEdit = (addressUpdate, index) => {
-    const newUser = { ...user, addresses: [...user.addresses] }; //for Shallow Copy Issue
+    const newUser = { ...userInfo, addresses: [...userInfo.addresses] }; //for Shallow Copy Issue
     newUser.addresses.splice(index, 1, addressUpdate);
     dispatch(updateUserAsync(newUser));
     setSelectedEditIndex(-1);
@@ -29,7 +29,7 @@ export default function UserProfile() {
 
   const handleEditForm = (index) => {
     setSelectedEditIndex(index);
-    const address = user.addresses[index];
+    const address = userInfo.addresses[index];
     setValue("name", address.name);
     setValue("email", address.email);
     setValue("phone", address.phone);
@@ -41,14 +41,14 @@ export default function UserProfile() {
 
   //to add new addresses
   const handleAdd = (address) => {
-    const newUser = { ...user, addresses: [...user.addresses, address] };
+    const newUser = { ...userInfo, addresses: [...userInfo.addresses, address] };
     dispatch(updateUserAsync(newUser));
     setshowAddAddressForm(false);
   };
 
   //To Remove the Saved Address
   const handleRemove = (e, index) => {
-    const newUser = { ...user, addresses: [...user.addresses] }; //for Shallow Copy Issue
+    const newUser = { ...userInfo, addresses: [...userInfo.addresses] }; //for Shallow Copy Issue
     newUser.addresses.splice(index, 1);
     dispatch(updateUserAsync(newUser));
   };
@@ -58,14 +58,14 @@ export default function UserProfile() {
       <div className="bg-white mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8 mt-12 ">
         <div className="border-t border-gray-200 px-4 py-2 sm:px-6 sm:py-6">
           <h1 className="text-2xl sm:text-4xl font-bold tracking-tight text-gray-900  sm:my-5">
-            Welcome, {user.name ? user.name : "Guest"}.
+            Welcome, {userInfo.name ? userInfo.name : "Guest"}.
           </h1>
           <h3 className="text-md sm:text-xl font-semibold sm:font-bold tracking-tight text-red-900 sm:my-5">
-            Email Address: {user.email}
+            Email Address: {userInfo.email}
           </h3>
-          {user.role === "admin" && (
+          {userInfo.role === "admin" && (
             <h3 className="text-xl font-bold tracking-tight text-red-900 my-5">
-              Role: {user.role}
+              Role: {userInfo.role}
             </h3>
           )}
         </div> 
@@ -264,7 +264,7 @@ export default function UserProfile() {
           ) : null}
 
           {/* Shows all Saved Addresses and also enables functionality to edit them */}
-          {user.addresses.map((address, index) => (
+          {userInfo.addresses.map((address, index) => (
             <div className="">
               {selectedEditIndex === index ? (
                 <form
